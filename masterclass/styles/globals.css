@@ -1,0 +1,25 @@
+/* styles/globals.css */
+
+@font-face {
+  font-family: 'TimeBurner';
+  src: url('/fonts/timeburner.bold') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins.regular') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* Asegúrate de que las directivas de Tailwind estén aquí también */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clase personalizada para establecer un ancho de 30px */
+.w-custom {
+    width: 160px;
+  }
