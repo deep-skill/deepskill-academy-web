@@ -13,7 +13,7 @@ module.exports = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
         colorBackground: '#E5E5E5',
@@ -22,11 +22,14 @@ module.exports = {
         customBlue: '#3366FF',
         colorsIcon: '#1C1B1F',
         colorText: '#1E1E1C',
+        colorCards: '#7AD421',
+        colorsCards2: '#2C5BE8'
       },
       fontFamily: {
         // Añade ' ' a la configuración de fuentes
         timeburner: ['TimeBurner'],
         poppins: ['Poppins'],
+        poppinsbold: ['PoppinsBold']
       },
     },
   },

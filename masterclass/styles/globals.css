@@ -14,6 +14,12 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'PoppinsBold';
+    src: url('/fonts/poppins.bold') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+  }
 /* Asegúrate de que las directivas de Tailwind estén aquí también */
 @tailwind base;
 @tailwind components;
