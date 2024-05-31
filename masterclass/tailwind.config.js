@@ -10,6 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius:{
+        '75px': '75px',
+      },
+      fontSize: {
+        '40px': '40px',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -19,6 +25,7 @@ module.exports = {
         colorBackground: '#E5E5E5',
         colorNavbar: '#F0F4FF',
         colorTextNavbar: '#1D1E1C',
+        colorTextSubtitulo: '#4451FF',
         customBlue: '#3366FF',
         colorsIcon: '#1C1B1F',
         colorText: '#1E1E1C',
