@@ -15,6 +15,7 @@ module.exports = {
       },
       fontSize: {
         '40px': '40px',
+        '62px': '62px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -30,7 +31,8 @@ module.exports = {
         colorsIcon: '#1C1B1F',
         colorText: '#1E1E1C',
         colorCards: '#7AD421',
-        colorsCards2: '#2C5BE8'
+        colorsCards2: '#2C5BE8',
+        colorsButton: '#99FF33'
       },
       fontFamily: {
         // Añade ' ' a la configuración de fuentes
