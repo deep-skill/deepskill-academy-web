@@ -4,6 +4,7 @@ import NavBar from "@/components/Navbar";
 import Mentors from "@/components/Mentors";
 import AboutUs from "@/components/AboutUs";
 import CourseCard from "@/components/CourseCard";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Mentors></Mentors>
       <AboutUs></AboutUs>
       <CourseCard></CourseCard>
+      <Testimonials></Testimonials>
     </main>
     
   );
