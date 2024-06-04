@@ -32,7 +32,8 @@ module.exports = {
         colorText: '#1E1E1C',
         colorCards: '#7AD421',
         colorsCards2: '#2C5BE8',
-        colorsButton: '#99FF33'
+        colorsButton: '#99FF33',
+        colorsTestimonial: '#F0F4FF',
       },
       fontFamily: {
         // Añade ' ' a la configuración de fuentes
@@ -40,6 +41,9 @@ module.exports = {
         poppins: ['Poppins'],
         poppinsbold: ['PoppinsBold']
       },
+      width: {
+        '7/10': '70%',
+      }
     },
   },
   plugins: [addDynamicIconSelectors()],
