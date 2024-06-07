@@ -5,17 +5,21 @@ import Mentors from "@/components/Mentors";
 import AboutUs from "@/components/AboutUs";
 import CourseCard from "@/components/CourseCard";
 import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-0">
-      <NavBar></NavBar>
-      <Body></Body>
-      <Mentors></Mentors>
-      <AboutUs></AboutUs>
-      <CourseCard></CourseCard>
-      <Testimonials></Testimonials>
-    </main>
+    <div className="flex flex-col min-h-screen">
+      <NavBar />
+      <main className="flex-grow">
+        <Body />
+        <Mentors />
+        <AboutUs />
+        <CourseCard />
+        <Testimonials />
+      </main>
+      <Footer />
+    </div>
     
   );
 }
