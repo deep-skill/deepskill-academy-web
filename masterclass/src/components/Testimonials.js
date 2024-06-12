@@ -3,11 +3,11 @@ import Image from "next/image";
 const Testimonials = () => {
     const testimonials = [
         {
-            name: 'Alvaro Salcedo G.',
-            role: 'Ingeniero Ambiental',
+            name: 'César Ramos S.',
+            role: 'Ingeniero Civil',
             country: 'Perú',
-            description: "La Masterclass de Deep Skill fue un verdadero punto de inflexión en mi carrera. Aprendí a aplicar técnicas avanzadas de Python, lo cual me permitió automatizar procesos críticos de seguridad en la empresa donde trabajo. Ahora, gracias a lo aprendido en este curso, me destaco como una pieza clave en mi equipo. Recomiendo esta capacitación a todos los que buscan potenciar su impacto en el campo laboral.",
-            image: '/images/jean-pierre.jpg',
+            description: '"Gracias a la Masterclass de Deep Skill pude aprender Python desde cero y luego aplicar lo aprendido a la industria de la Construcción. Muy recomendable para quienes deseen ampliar sus habilidades en programación y procesamiento de datos."',
+            image: '/images/testimonials/testimonials-1.png',
         },
            
         {
@@ -39,8 +39,8 @@ const Testimonials = () => {
     return (
         <div className="w-full bg-white py-12">
             
-                <div className="w-7/10 mx-auto mb-8">
-                    <h2 className="text-40px font-bold font-poppins text-colorTextSubtitulo mb-3 ">TESTIMONIOS</h2>
+                <div className="w-4/5 mx-auto mb-8">
+                    <h2 className="text-40px font-bold font-poppins text-colorTextSubtitulo -mb-3 ">TESTIMONIOS</h2>
                     <h3 className="text-colorTextNavbar text-lg font-poppins font-bold">Experiencias de nuestros ex alumnos</h3>
                 </div>
                 <div className="container mx-auto px-4 md:px-20 flex flex-wrap justify-center lg:justify-between">
