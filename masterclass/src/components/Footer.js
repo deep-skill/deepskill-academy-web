@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-    <footer className="w-full bg-blue-600 text-white py-8">
+    <footer className="w-full bg-blue-600 text-white py-5">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6 md:px-20">
         
             {/* Logo and Copyright */}
@@ -13,8 +13,8 @@ const Footer = () => {
                     <Image
                     src="/images/company/deep-skill.svg" // Reemplaza con la ruta de tu logo
                     alt="DeepSkill Logo"
-                    width={200}
-                    height={40}
+                    width={180}
+                    height={35}
                     />
                 </div>
                 <p className="mt-2 text-center md:text-left">&copy; 2024 Deep Skill Software Factory.</p>

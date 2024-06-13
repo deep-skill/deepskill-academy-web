@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
     return (
-        <div className="w-full py-16 px-8 bg-white">
+        <div className="w-full py-16 bg-white">
             <div className="container mx-auto">
                 <div className="flex justify-center">
                     <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
@@ -26,7 +26,7 @@ const AboutUs = () => {
                             alt="Equipo trabajando"
                             width={500}
                             height={400}
-                            className="rounded-75px"
+                            className="rounded-70px md:rounded-75px"
                             />
                         </div>
                     </div>
