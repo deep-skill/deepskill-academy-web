@@ -16,6 +16,7 @@ module.exports = {
       fontSize: {
         '40px': '40px',
         '62px': '62px',
+        '80px': '80px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -38,6 +39,7 @@ module.exports = {
       fontFamily: {
         // Añade ' ' a la configuración de fuentes
         timeburner: ['TimeBurner'],
+        timeburnerbold: ['TimeBurnerBold'],
         poppins: ['Poppins'],
         poppinsbold: ['PoppinsBold']
       },
