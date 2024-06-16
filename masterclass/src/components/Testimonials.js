@@ -52,9 +52,9 @@ const Testimonials = () => {
 
     return (
         <div className="w-full bg-white py-12">
-            <div className="w-4/5 mx-auto mb-8">
-                <h2 className="text-40px font-bold font-poppins text-colorTextSubtitulo -mb-3 ">TESTIMONIOS</h2>
-                <h3 className="text-colorTextNavbar text-lg font-poppins font-bold">Experiencias de nuestros ex alumnos</h3>
+            <div className="w-85% md:w-4/5 mx-auto mb-8">
+                <h2 className="text-center text-32px md:text-left md:text-4xl font-bold font-poppins text-colorTextSubtitulo -mb-1 ">TESTIMONIOS</h2>
+                <h3 className="text-colorTextNavbar text-center text-17px md:text-left md:text-2xl font-poppins font-bold">Experiencias de nuestros ex alumnos</h3>
             </div>
             <div className="container mx-auto px-4 md:px-20">
                 {isMobile ? (
@@ -65,10 +65,10 @@ const Testimonials = () => {
                                     <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
                                         <Image src={testimonial.image} alt={testimonial.name} width={96} height={96} className="object-cover" />
                                     </div>
-                                    <h3 className="text-lg font-bold font-poppins text-customBlue">{testimonial.name}</h3>
-                                    <p className="text-customBlue text-justify text-sm font-poppins my-1 ">{testimonial.role}</p>
-                                    <p className="text-customBlue text-justify text-sm font-poppins mt-1  ">{testimonial.country}</p>
-                                    <p className="text-colorTextNavbar text-sm mt-2 text-justify font-poppins my-6">{testimonial.description}</p>
+                                    <h3 className="text-customBlue text-2xl font-bold font-poppins ">{testimonial.name}</h3>
+                                    <p className="text-customBlue text-justify text-base font-poppins my-1 ">{testimonial.role}</p>
+                                    <p className="text-customBlue text-justify text-base font-poppins">{testimonial.country}</p>
+                                    <p className="text-colorTextNavbar text-base mt-2 text-justify font-poppins my-6">{testimonial.description}</p>
                                 </div>
                             </div>
                         ))}
@@ -78,13 +78,13 @@ const Testimonials = () => {
                         {testimonials.map((testimonial, index) => (
                             <div key={index} className="w-full sm:w-1/2 lg:w-[25%] p-5">
                                 <div className="h-full bg-colorsTestimonial rounded-lg flex flex-col items-center text-left p-6">
-                                    <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-                                        <Image src={testimonial.image} alt={testimonial.name} width={96} height={96} className="object-cover" />
+                                    <div className="w-25 h-25 rounded-full overflow-hidden mb-4">
+                                        <Image src={testimonial.image} alt={testimonial.name} width={100} height={100} className="object-cover" />
                                     </div>
-                                    <h3 className="text-lg font-bold font-poppins text-customBlue">{testimonial.name}</h3>
-                                    <p className="text-customBlue text-justify text-sm font-poppins my-1 ">{testimonial.role}</p>
-                                    <p className="text-customBlue text-justify text-sm font-poppins mt-1  ">{testimonial.country}</p>
-                                    <p className="text-colorTextNavbar text-sm mt-2 text-justify font-poppins my-6">{testimonial.description}</p>
+                                    <h3 className="text-2xl font-bold font-poppins text-customBlue">{testimonial.name}</h3>
+                                    <p className="text-customBlue text-justify text-base font-poppins my-1 ">{testimonial.role}</p>
+                                    <p className="text-customBlue text-justify text-base font-poppins -mt-1  ">{testimonial.country}</p>
+                                    <p className="text-colorTextNavbar text-base mt-4 text-justify font-poppins my-6">{testimonial.description}</p>
                                 </div>
                             </div>
                         ))}

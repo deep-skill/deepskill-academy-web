@@ -18,6 +18,7 @@ module.exports = {
         '62px': '62px',
         '80px': '80px',
         '32px': '32px',
+        '17px': '17px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -46,6 +47,7 @@ module.exports = {
       },
       width: {
         '7/10': '70%',
+        '85': '85%',
       }
     },
   },
