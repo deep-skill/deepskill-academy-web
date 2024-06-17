@@ -45,6 +45,14 @@ export const Mentors = () => {
         }
     ];
 
+    const companyLogos = [
+        { src: '/images/company/deep-pit.svg', alt: 'Deep Pit' },
+        { src: '/images/company/scotiabank.svg', alt: 'Scotiabank' },
+        { src: '/images/company/interbank.svg', alt: 'Interbank' },
+        { src: '/images/company/coder-house.svg', alt: 'Coder House' },
+        { src: '/images/company/google.svg', alt: 'Google' },
+    ];
+
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -61,24 +69,24 @@ export const Mentors = () => {
     return (
         <div className="w-full flex flex-col min-h-screen">
             <div className="bg-blue-900 py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
-            <h2 className="text-4xl text-center md:text-left font-bold font-poppins text-white mb-12 md:ml-12">
-                <span className="block md:inline">Expertos tech: </span>
-                <span className="hidden md:inline">Mentores en tu aprendizaje</span>
-                <span className="md:hidden block text-2xl pt-2">Mentores en tu aprendizaje</span>
-            </h2>
-                <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
+                <h2 className="text-4xl text-center md:text-left font-bold font-poppins text-white mb-12 md:ml-12">
+                    <span className="block md:inline">Expertos tech: </span>
+                    <span className="hidden md:inline">Mentores en tu aprendizaje</span>
+                    <span className="md:hidden block text-2xl pt-2">Mentores en tu aprendizaje</span>
+                </h2>
+                <div className="container md:mx-auto px-8 sm:px-8 md:px-16 lg:px-20">
                     {isMobile ? (
                         <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {mentors.map((mentor, index) => (
-                                <div key={index} className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-8 sm:p-6`}>
-                                    <div className="w-25 h-25 rounded-full overflow-hidden mb-4">
-                                        <Image src={mentor.image} alt={mentor.name} width={120} height={120} className="object-cover rounded-full" />
+                                <div key={index} className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-7 sm:p-6 mentor-card-mobile`}>
+                                    <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
+                                        <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                     </div>
-                                    <h3 className="text-2xl sm:text-lg font-bold font-poppins text-white">{mentor.name}</h3>
-                                    <p className="text-white text-justify text-base sm:text-sm font-poppins font-bold my-2 sm:my-2">{mentor.role}</p>
-                                    <p className="text-white text-base sm:text-sm mt-4 text-justify font-poppins my-2 sm:my-5">{mentor.description}</p>
-                                    <div className="my-8 mx-auto">
-                                        <Image src={mentor.companyLogo} alt={mentor.company} width={60} height={20} className="sm:w-20 sm:h-8" />
+                                    <h3 className="text-2xl font-bold font-poppins text-white">{mentor.name}</h3>
+                                    <p className="text-white text-justify text-base font-poppins font-bold my-2">{mentor.role}</p>
+                                    <p className="text-white text-base mt-4 text-justify font-poppins my-5">{mentor.description}</p>
+                                    <div className="mt-4 mx-10 pb-10">
+                                        <Image src={mentor.companyLogo} alt={mentor.company} width={60} height={20} />
                                     </div>
                                 </div>
                             ))}
@@ -95,7 +103,7 @@ export const Mentors = () => {
                                         <p className="text-white text-justify text-xs sm:text-sm font-poppins font-bold my-2 sm:my-2">{mentor.role}</p>
                                         <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppins my-2 sm:my-5">{mentor.description}</p>
                                         <div className="mt-auto mx-auto">
-                                            <Image src={mentor.companyLogo} alt={mentor.company} width={120} height={40} />
+                                            <Image src={mentor.companyLogo} alt={mentor.company} width={60} height={20} />
                                         </div>
                                     </div>
                                 </div>
@@ -106,12 +114,22 @@ export const Mentors = () => {
             </div>
             <div className="w-full bg-customBlue text-center text-white font-poppins py-6 px-2">
                 <p className='px-8'>Nuestros mentores también lideran en otras de las empresas más importantes del mundo</p>
-                <div className="flex flex-wrap justify-center mt-6">
-                    <Image src="/images/company/deep-pit.svg" alt="Deep Pit" width={100} height={50} className="m-2 md:w-40 sm:h-10" />
-                    <Image src="/images/company/scotiabank.svg" alt="Scotiabank" width={100} height={50} className="m-2 md:w-40 sm:h-10" />
-                    <Image src="/images/company/interbank.svg" alt="Interbank" width={100} height={50} className="m-2 md:w-40 sm:h-10" />
-                    <Image src="/images/company/coder-house.svg" alt="Coder House" width={100} height={50} className="m-2 md:w-40 sm:h-10" />
-                    <Image src="/images/company/google.svg" alt="Google" width={100} height={50} className="m-2 md:w-40 sm:h-10" />
+                <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
+                    {isMobile ? (
+                        <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
+                            {companyLogos.map((logo, index) => (
+                                <div key={index} className="flex justify-center">
+                                    <Image src={logo.src} alt={logo.alt} width={60} height={30} className="m-8" />
+                                </div>
+                            ))}
+                        </Carousel>
+                    ) : (
+                        <div className="flex flex-wrap justify-center mt-6">
+                            {companyLogos.map((logo, index) => (
+                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-2 md:w-40 sm:h-10" />
+                            ))}
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
@@ -119,3 +137,5 @@ export const Mentors = () => {
 }
 
 export default Mentors;
+
+
