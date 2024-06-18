@@ -1,11 +1,10 @@
-"use client";
-
+"use client"
 import { useState, useEffect } from 'react';
 import Image from "next/image";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-export const Mentors = () => {
+const Mentors = () => {
     const mentors = [
         {
             name: 'JEAN PIERRE MANDUJANO',
@@ -74,11 +73,11 @@ export const Mentors = () => {
                     <span className="hidden md:inline">Mentores en tu aprendizaje</span>
                     <span className="md:hidden block text-2xl pt-2">Mentores en tu aprendizaje</span>
                 </h2>
-                <div className="container md:mx-auto px-8 sm:px-8 md:px-16 lg:px-20">
+                <div className="container mx-auto px-8 sm:px-8 md:px-16 lg:px-20">
                     {isMobile ? (
                         <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {mentors.map((mentor, index) => (
-                                <div key={index} className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-7 sm:p-6 mentor-card-mobile`}>
+                                <div key={index} className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-7 sm:p-6 mentor-card-mobile overflow-hidden`}>
                                     <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
                                         <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                     </div>
@@ -95,7 +94,7 @@ export const Mentors = () => {
                         <div className="flex flex-wrap justify-center lg:justify-between">
                             {mentors.map((mentor, index) => (
                                 <div key={index} className="w-full sm:w-1/2 lg:w-1/4 p-2 sm:p-4">
-                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6`}>
+                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 overflow-hidden`}>
                                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-4">
                                             <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                         </div>
@@ -103,7 +102,7 @@ export const Mentors = () => {
                                         <p className="text-white text-justify text-xs sm:text-sm font-poppins font-bold my-2 sm:my-2">{mentor.role}</p>
                                         <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppins my-2 sm:my-5">{mentor.description}</p>
                                         <div className="mt-auto mx-auto">
-                                            <Image src={mentor.companyLogo} alt={mentor.company} width={60} height={20} />
+                                            <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} />
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +125,7 @@ export const Mentors = () => {
                     ) : (
                         <div className="flex flex-wrap justify-center mt-6">
                             {companyLogos.map((logo, index) => (
-                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-2 md:w-40 sm:h-10" />
+                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-5 md:w-40 sm:h-10" />
                             ))}
                         </div>
                     )}
@@ -137,5 +136,3 @@ export const Mentors = () => {
 }
 
 export default Mentors;
-
-

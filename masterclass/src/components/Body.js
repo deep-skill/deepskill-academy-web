@@ -1,4 +1,7 @@
+"use client";
+
 import Carousel from "./Carousel";
+import { useState, useEffect } from 'react';
 
 export const Body = () => {
     const images = [
@@ -6,6 +9,19 @@ export const Body = () => {
         '/images/carousel/layla-scheli.png',
         '/images/carousel/elvis-capia.png',
     ];
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // Consider mobile view up to 768px width
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <div className="bg-white p-4 w-full flex flex-col min-h-screen justify-center">
@@ -36,9 +52,11 @@ export const Body = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden md:block">
-                    <Carousel images={images} />
-                </div>
+                {!isMobile && (
+                    <div className="w-full md:w-1/2 flex justify-center">
+                        <Carousel images={images} />
+                    </div>
+                )}
             </div>
         </div>
     );
