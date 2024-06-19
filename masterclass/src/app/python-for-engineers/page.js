@@ -3,9 +3,9 @@ import Image from "next/image";
 import Body from "@/components/Body";
 import NavBar from "@/components/Navbar";
 import Mentors from "@/components/Mentors";
-import AboutUs from "@/components/AboutUs";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import Programs from "@/components/Programs";
 
 export default function CourseDetailPage() {
   return (
@@ -14,7 +14,7 @@ export default function CourseDetailPage() {
       <main className="flex-grow">
         <Body />
         <Mentors />
-        <AboutUs />
+        <Programs />
         <Testimonials />
       </main>
       <Footer />
