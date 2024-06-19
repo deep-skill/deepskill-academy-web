@@ -64,7 +64,7 @@ const CourseCard = () => {
                                             <p className="text-xl mb-4 text-justify font-poppins">{course.description}</p>
                                             <p className="text-xl mb-6 font-poppins text-left"><strong>Próxima fecha de inicio: {course.date}</strong></p>
                                             <div className="flex justify-center">
-                                                <Link href="/course-detail-page">
+                                                <Link href="/python-for-engineers">
                                                     <button className="bg-colorsButton text-colorTextNavbar text-base font-poppins font-bold px-9 py-3 rounded-3xl">
                                                         MÁS INFORMACIÓN AQUÍ
                                                     </button>
@@ -88,7 +88,7 @@ const CourseCard = () => {
                                             <p className="text-sm mb-4 text-justify">{course.description}</p>
                                             <p className="text-sm mb-6"><strong>Próxima fecha de inicio: {course.date}</strong></p>
                                             <div className="flex justify-center">
-                                                <Link href="/course-detail-page">
+                                                <Link href="/python-for-engineers">
                                                     <button className="bg-colorsButton text-colorTextNavbar text-sm font-semibold px-6 py-2 rounded-3xl">
                                                         MÁS INFORMACIÓN AQUÍ
                                                     </button>
