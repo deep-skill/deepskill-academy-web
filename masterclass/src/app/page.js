@@ -6,6 +6,7 @@ import AboutUs from "@/components/AboutUs";
 import CourseCard from "@/components/CourseCard";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import '/styles/globals.css'
 
 export default function Home() {
   return (
