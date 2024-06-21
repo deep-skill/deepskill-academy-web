@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import NavBar from "@/components/Navbar";
 import Mentors from "@/components/Mentors";
@@ -16,13 +15,12 @@ export default function CourseDetailPage() {
         <BodyPythonEngineers />
         <Mentors />
         <Programs />
-        <Testimonials />
       </main>
       <Footer />
     </div>
-    
   );
 }
+
 
 
 
