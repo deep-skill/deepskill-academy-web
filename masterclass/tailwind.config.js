@@ -27,6 +27,7 @@ module.exports = {
       },
       colors: {
         colorBackground: '#E5E5E5',
+        colorBackgroundCards: '#F0F4FF',
         colorNavbar: '#F0F4FF',
         colorTextNavbar: '#1D1E1C',
         colorTextSubtitulo: '#4451FF',
@@ -43,7 +44,10 @@ module.exports = {
         timeburner: ['TimeBurner'],
         timeburnerbold: ['TimeBurnerBold'],
         poppins: ['Poppins'],
-        poppinsbold: ['PoppinsBold']
+        poppinsbold: ['PoppinsBold'],
+        fuentetitulo: ['FuenteTitulo'],
+        poppinsregular: ['PoppinsRegular'],
+        poppinssemibold: ['PoppinsSemiBold'],
       },
       width: {
         '7/10': '70%',
