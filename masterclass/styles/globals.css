@@ -1,6 +1,12 @@
 /* styles/globals.css */
 
 @font-face {
+  font-family: 'FuenteTitulo';
+  src: url('/fonts/Fuente-Titulo.ttf') format('truetype');
+}
+
+
+@font-face {
   font-family: 'TimeBurner';
   src: url('/fonts/timeburnernormal') format('truetype');
   font-weight: normal;
@@ -24,8 +30,16 @@
   @font-face {
     font-family: 'PoppinsBold';
     src: url('/fonts/Poppins-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: bold;
+  }
+
+  @font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/fonts/Poppins-Regular.ttf') format('truetype');
   }
 /* Asegúrate de que las directivas de Tailwind estén aquí también */
 @tailwind base;
