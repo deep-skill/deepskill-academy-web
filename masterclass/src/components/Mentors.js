@@ -68,7 +68,7 @@ const Mentors = () => {
     return (
         <div className="w-full flex flex-col min-h-screen">
             <div className="bg-blue-900 py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
-                <h2 className="text-4xl text-center md:text-left font-bold font-poppins text-white mb-12 md:ml-12">
+                <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 lg:ml-16">
                     <span className="block md:inline">Expertos tech: </span>
                     <span className="hidden md:inline">Mentores en tu aprendizaje</span>
                     <span className="md:hidden block text-2xl pt-2">Mentores en tu aprendizaje</span>
@@ -81,9 +81,9 @@ const Mentors = () => {
                                     <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
                                         <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                     </div>
-                                    <h3 className="text-2xl font-bold font-poppins text-white">{mentor.name}</h3>
-                                    <p className="text-white text-justify text-base font-poppins font-bold my-2">{mentor.role}</p>
-                                    <p className="text-white text-base mt-4 text-justify font-poppins my-5">{mentor.description}</p>
+                                    <h3 className="text-2xl font-poppinsbold text-white">{mentor.name}</h3>
+                                    <p className="text-white text-justify text-base font-poppinsbold my-2">{mentor.role}</p>
+                                    <p className="text-white text-base mt-4 text-justify font-poppinsregular my-5">{mentor.description}</p>
                                     <div className="mt-4 mx-10 pb-10">
                                         <Image src={mentor.companyLogo} alt={mentor.company} width={60} height={20} />
                                     </div>
@@ -98,10 +98,10 @@ const Mentors = () => {
                                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-4">
                                             <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                         </div>
-                                        <h3 className="text-base sm:text-lg font-bold font-poppins text-white">{mentor.name}</h3>
-                                        <p className="text-white text-justify text-xs sm:text-sm font-poppins font-bold my-2 sm:my-2">{mentor.role}</p>
-                                        <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppins my-2 sm:my-5">{mentor.description}</p>
-                                        <div className="mt-auto mx-auto">
+                                        <h3 className="text-base sm:text-lg font-poppinsbold text-white">{mentor.name}</h3>
+                                        <p className="text-white text-justify text-xs sm:text-sm font-poppinsbold lg:mt-4 my-2 sm:my-2">{mentor.role}</p>
+                                        <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppinsregular my-2 sm:my-5">{mentor.description}</p>
+                                        <div className="mt-4 mx-auto">
                                             <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} />
                                         </div>
                                     </div>
@@ -111,8 +111,8 @@ const Mentors = () => {
                     )}
                 </div>
             </div>
-            <div className="w-full bg-customBlue text-center text-white font-poppins py-6 px-2">
-                <p className='px-8'>Nuestros mentores también lideran en otras de las empresas más importantes del mundo</p>
+            <div className="w-full bg-customBlue text-center text-white py-6 px-2">
+                <p className='px-8 font-poppinsregular'>Nuestros mentores también lideran en otras de las empresas más importantes del mundo</p>
                 <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
                     {isMobile ? (
                         <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
