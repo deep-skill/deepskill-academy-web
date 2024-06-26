@@ -18,7 +18,7 @@ export const Body = () => {
     }, []);
 
     const opts = {
-        height: isMobile ? '200' : '220', // Reduced height for desktop view
+        height: isMobile ? '200' : '180', // Reduced height for desktop view
         width: isMobile ? '100%' : '360',
         playerVars: {
             autoplay: 1,
@@ -31,7 +31,7 @@ export const Body = () => {
                 <div className="w-full md:w-1/2 mt-20 text-center md:text-left">
                     <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 leading-tight drop-shadow-lg md:text-8xl">
                         Python<br />
-                        <span className="text-40px md:text-80px font-fuentetitulo drop-shadow-lg">para ingenieros</span>
+                        <span className="text-40px md:text-8xl font-fuentetitulo leading-tight drop-shadow-lg">de Data</span>
                     </h1>
                     <p className="text-colorText mt-8 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
@@ -55,35 +55,43 @@ export const Body = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div className="w-full md:w-1/2 flex flex-col items-center lg:mt-20 md:mt-0">
                     <div className="md:w-[50%] flex flex-col items-center bg-colorBackgroundCards" style={{ maxWidth: opts.width }}>
-                        <div className="bg-blue-500 font-poppinsbold font-extrabold  text-xl lg:text-2xl text-white text-center w-full py-4 mt-0"> {/* Adjusted mt-4 */}
+                        <div className="bg-blue-500 font-poppinsbold font-extrabold text-xl lg:text-2xl text-white text-center w-full py-4 mt-0">
                             ¡QUEDAN POCOS CUPOS!
                         </div>
                         <div className="mt-0">
                             <YouTube videoId="Ni6SlemWS1Y" opts={opts} />
                         </div>
-                        <div className="text-customBlue font-poppinsbold text-xl mt-4">
-                            <h1>MÓDULO 1</h1>
-                            <p>lorem imsum</p>
-                            <p>lorem imsum</p>
-                            <p>lorem imsum</p>
-                            <p>lorem imsum</p>
+                        <div className="text-customBlue font-poppinsbold mt-4 w-full px-7">
+                            <h1 className='font-poppinsbold text-xl text-left'>Módulo 1</h1>
+                            <p className='text-sm text-colorTextNavbar text-left'>Martes y jueves de 7 pm a 9 pm</p>
+                            <p className='text-sm text-colorTextNavbar text-left'>Jun 11 - Jul 04</p>
+                            <h1 className='font-poppinsbold text-xl mt-5 text-left'>Módulo 2</h1>
+                            <p className='text-sm text-colorTextNavbar text-left'>Martes y jueves de 7 pm a 9 pm</p>
+                            <p className='text-sm text-colorTextNavbar text-left'>Jun 11 - Jul 04</p>
+                            <div className="mt-4 text-center justify-between">
+                                <p className='text-sm text-customBlue'>1 módulo <span className='ml-12'>2 módulos</span></p>
+                                <p className='text-base text-customBlue'>USD 300.00 <span className='ml-6'>USD 500.00</span></p>
+                            </div>
                         </div>
-                        <div className="bg-colorsButton font-poppinsbold lg:text-base text-colorTextNavbar text-center w-full py-1 mt-2">
+                        <div className="bg-colorsButton font-poppinsbold lg:text-sm text-colorTextNavbar text-center w-full py-1 mt-2">
                             HASTA EL 14/03 <br />
-                            <span className="font-poppinsbold text-3xl">USD 400.00 </span><br />
+                            <span className="font-poppinsbold text-2xl">USD 400.00 </span><br />
                             2 módulos
                         </div>
-                        <button className="bg-customBlue rounded-full text-sm lg:text-xs font-poppinssemibold mt-4 mb-6 p-3 px-9 w-[90%] md:text-base sm:px-10">
+                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-sm lg:text-xs font-poppinssemibold mt-4 mb-6 p-3 px-9 w-[90%] md:text-base sm:px-10 text-center">
                             ÚNETE A ESTE MASTERCLASS AHORA!
-                        </button>
+                        </a>
                     </div>
                 </div>
+
             </div>
         </div>
     );
 }
 
 export default Body;
+
 
