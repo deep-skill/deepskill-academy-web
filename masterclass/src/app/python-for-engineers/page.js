@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Programs from "@/components/Programs";
 import BodyPythonEngineers from "@/components/BodyPythonEngineers";
 import '/styles/globals.css'
+import MasterclassContent from "@/components/MasterClassContent";
 
 export default function CourseDetailPage() {
   return (
@@ -15,6 +16,7 @@ export default function CourseDetailPage() {
         <BodyPythonEngineers />
         <Mentors />
         <Programs />
+        <MasterclassContent />
       </main>
       <Footer />
     </div>
