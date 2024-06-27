@@ -7,18 +7,18 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const CourseCard = () => {
     const courses = [
         {
-            title: 'PYTHON FUNDAMENTALS',
+            title: 'BOOTCAMP THE DATA',
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
             date: '00/00/0000',
             imageSrc: '/images/image-course.jpg',
-            link: '/python-for-engineers'
+            link: '/bootcamp-data'
         },
         {
             title: 'PYTHON & SQL FOR DATA PROJECTS',
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
             date: '00/00/0000',
             imageSrc: '/images/image-course.jpg',
-            link: '/courses/bootcamp-python'
+            link: '/python-sql-data'
         },
         {
             title: 'ALGORITHMS & DATA STRUCTURES',

@@ -1,19 +1,18 @@
 import Image from "next/image";
-import NavBar from "@/components/Navbar";
+import NavBar from "@/components/course-python-sql-data/Navbar";
 import Mentors from "@/components/Mentors";
-import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import Programs from "@/components/Programs";
-import BodyPythonEngineers from "@/components/BodyPythonEngineers";
+import Body from "@/components/course-python-sql-data/Body";
 import '/styles/globals.css'
 import MasterclassContent from "@/components/MasterClassContent";
 
-export default function CourseDetailPage() {
+export default function PythonSqlData() {
   return (
     <div className="flex flex-col">
       <NavBar />
       <main className="flex-grow">
-        <BodyPythonEngineers />
+        <Body />
         <Mentors />
         <Programs />
         <MasterclassContent />
@@ -22,7 +21,3 @@ export default function CourseDetailPage() {
     </div>
   );
 }
-
-
-
-
