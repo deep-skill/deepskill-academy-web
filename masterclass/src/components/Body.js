@@ -29,7 +29,7 @@ export const Body = () => {
                 <div className="w-full md:w-1/2 mt-12 text-center md:text-left">
                     <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 drop-shadow-lg md:text-8xl ">
                         Aquí empieza <br />
-                        <span className="text-40px font-fuentetitulo md:text-62px">tu futuro tech</span>
+                        <span className="text-40px font-fuentetitulo md:text-7xl leading-tight drop-shadow-lg">tu futuro tech</span>
                     </h1>
                     <p className="text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:text-3xl sm:text-2xl">
                         Conecta junto a nuestros expertos con el mundo tecnológico de hoy.
