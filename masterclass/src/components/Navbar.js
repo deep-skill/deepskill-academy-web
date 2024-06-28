@@ -10,7 +10,7 @@ const NavBar = () =>{
         setIsOpen(!isOpen);
     };
     return (
-        <nav className="bg-colorNavbar text-white px-6 py-4 w-full fixed top-0 z-50">
+        <nav className="bg-colorNavbar text-white px-6 py-5 w-full fixed top-0 z-50">
             <div className="container mx-auto flex items-center justify-between px-6">
                 {/* Logo en el lado izquierdo */}
                 <div className="flex items-center ml-10">
