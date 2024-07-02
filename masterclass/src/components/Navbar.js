@@ -10,11 +10,11 @@ const NavBar = () =>{
         setIsOpen(!isOpen);
     };
     return (
-        <nav className="bg-colorNavbar text-white p-6 w-full fixed top-0 z-50">
+        <nav className="bg-colorNavbar text-white px-6 py-5 w-full fixed top-0 z-50">
             <div className="container mx-auto flex items-center justify-between px-6">
                 {/* Logo en el lado izquierdo */}
-                <div className="flex items-center">
-                    <Image src={deepSkillImg} alt="logo" width={200} />
+                <div className="flex items-center ml-10">
+                    <Image src={deepSkillImg} alt="logo" width={180} />
                 </div>
                 
                 {/* Icono de menú hamburguesa */}
@@ -28,10 +28,10 @@ const NavBar = () =>{
 
                 {/* Secciones de navegación en el lado derecho, ocultas en pantallas pequeñas */}
                 <ul className="hidden md:flex space-x-7">
-                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400">Inicio</a></li>
-                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400">¿Quiénes somos?</a></li>
-                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400">Para profesionales</a></li>
-                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400">Para empresas</a></li>
+                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Inicio</a></li>
+                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">¿Quiénes somos?</a></li>
+                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para profesionales</a></li>
+                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para empresas</a></li>
                 </ul>
             </div>
 
