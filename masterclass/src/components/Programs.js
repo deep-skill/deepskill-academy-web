@@ -4,7 +4,7 @@ const Programs = () => {
   return (
     <div className="w-full md:py-10 bg-white">
       <div className="container mx-auto px-4 lg:px-0">
-        <div className="px-2 lg:pl-20 py-8 md:p-12">
+        <div className="px-2 lg:pl-20 py-8 lg:py-1 lg:p-5 md:p-12">
           <h2 className="font-poppinsbold text-colorTextSubtitulo text-32px lg:text-40px text-center md:text-left mb-4 md:mb-1 lg:mb-1">
             ¿Qué Incluye el Programa?
           </h2>
