@@ -21,8 +21,8 @@ const MasterclassContent = () => {
     return (
         <div className="w-full flex flex-col min-h-screen">
             <div className="relative w-full h-full bg-black bg-opacity-75 py-10 lg:pb-2" style={{ backgroundImage: 'url("/images/background-masterclass.png")', backgroundBlendMode: 'overlay' }}>
-                <header className={`absolute top-0 left-0 lg:bg-customBlue lg:w-[50%] lg:rounded-br-[4rem] lg:py-9 py-5 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
-                    <h1 className={`font-poppinsbold text-32px md:text-4xl lg:text-40px md:ml-20 lg:leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
+                <header className={`absolute top-0 left-0 lg:bg-customBlue lg:w-[50%] lg:rounded-br-[4rem] lg:py-6 py-5 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
+                    <h1 className={`font-poppinsbold lg:-mb-2 text-32px md:text-4xl lg:text-40px md:ml-20 lg:leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
                         Contenido de la masterclass <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}></span>
                     </h1>
                     {!isMobile && (
@@ -32,8 +32,8 @@ const MasterclassContent = () => {
                     )}
                 </header>
                 <div className="container px-8 sm:px-8 md:px-14 lg:px-10 pt-40">
-                    <div className="flex flex-wrap items-center mb-8 lg:space-x-20">
-                        <div className="w-full md:w-1/2 lg:px-24">
+                    <div className="flex flex-wrap items-center mb-8 lg:space-x-20 ">
+                        <div className="w-full md:w-1/2 lg:px-12">
                             <p className="font-poppinsregular text-white lg:text-2xl text-xl text-center lg:text-justify md:text-left mb-10 lg:mb-10">
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>

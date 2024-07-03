@@ -36,22 +36,22 @@ export const Body = () => {
                     <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-26px md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
                     </p>
-                    <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-2xl sm:text-2xl lg:leading-tight">
+                    <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-2xl sm:text-2xl lg:leading-snug">
                         Diseñado para ingenieros que buscan maximizar sus conocimientos sumando
                         la habilidad de tratar datos y automatizar procesos con programación.
                     </p>
                     <div className="flex flex-col mb-10 sm:flex-row items-center mt-12 space-y-6 md:mt-20 md:space-x-10 sm:space-y-0 sm:space-x-10">
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--calendar-range] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText font-poppinsregular text-xl md:text-base lg:text-xl">8 semanas</p>
+                            <p className="text-colorText font-poppinsregular text-2xl md:text-base lg:text-xl">8 semanas</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-9 h-9  mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Virtual en vivo</p>
+                            <p className="text-colorText text-2xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Virtual en vivo</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--account-group-outline] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Máximo 10 participantes</p>
+                            <p className="text-colorText text-2xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Máximo 10 participantes</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export const Body = () => {
                             <span className="font-poppinsbold text-2xl">USD 400.00 </span><br />
                             2 módulos
                         </div>
-                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-sm font-poppinssemibold mt-4 mb-6 p-2 px-9 w-[90%] md:text-base lg:text-xl sm:px-10 text-center">
+                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-xl font-poppinssemibold mt-4 mb-6 p-2 px-9 w-[90%] md:text-base lg:text-xl sm:px-10 text-center">
                             ¡ÚNETE AHORA!
                         </a>
                     </div>
