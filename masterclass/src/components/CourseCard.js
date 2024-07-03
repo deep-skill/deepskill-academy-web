@@ -25,7 +25,7 @@ const CourseCard = () => {
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
             date: '00/00/0000',
             imageSrc: '/images/image-course-card/image-course3.jpg',
-            link: '/courses/masterclass-algorithms'
+            link: '/algorithms-data'
         },
     ];
 

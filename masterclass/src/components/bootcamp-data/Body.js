@@ -30,8 +30,8 @@ export const Body = () => {
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
                 <div className="w-full md:w-1/2 mt-20 text-center md:text-left">
                     <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 leading-tight drop-shadow-lg md:text-6xl lg:text-8xl">
-                        Python & SQL<br />
-                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">aplicados a Proyectos</span>
+                        Bootcamp<br />
+                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-80px font-timeburnerbold leading-tight drop-shadow-lg">de Data</span>
                     </h1>
                     <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-26px md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.

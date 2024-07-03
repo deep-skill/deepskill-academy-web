@@ -7,7 +7,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const Mentors = () => {
     const mentors = [
         {
-            name: 'JEAN PIERRE MANDUJANO',
+            name: 'RACSO GALVAN',
             role: 'Software Engineer | Engineering Manager | CTO',
             description: 'Founder & CTO de Deep Pit Technology Manager de Ingeniería en Scotiabank Tech Lead en BCP. Ingeniero de Software Senior en startups como Crehana y Fandango.',
             company: 'Deep Skill',
@@ -23,15 +23,6 @@ const Mentors = () => {
             companyLogo: '/images/company/google.svg',
             bgColor: 'bg-colorsCards2',
             image: '/images/mentors/elvis-capia.jpg',
-        },
-        {
-            name: 'LAYLA SCHELI',
-            role: 'Analista de BI | Big Data | Data Science.',
-            description: 'Software engineer con posgrados en Digital Busisness Management, Marketing digital y Comercio electrónico. Ex docente y mentora de Data Science en Coderhouse.',
-            company: 'Deep Skill',
-            companyLogo: '/images/company/deep-skill.svg',
-            bgColor: 'bg-colorCards',
-            image: '/images/mentors/layla-scheli.jpg',
         },
         {
             name: 'EMANUEL SOTO ORTEGA',
@@ -56,7 +47,7 @@ const Mentors = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 850); // Consider mobile view up to 768px width
+            setIsMobile(window.innerWidth <= 850); // Consider mobile view up to 850px width
         };
 
         handleResize();
@@ -72,7 +63,7 @@ const Mentors = () => {
                     <span className="block md:inline lg:ml-3 lg:text-5xl">Deep Mentors</span>
                     <span className="block px-2 text-xl lg:text-3xl pt-2 lg:ml-2">Los líderes Tech más top de la región detrás de tu crecimiento profesional.</span>
                 </h2>
-                <div className="container mx-auto px-8 sm:px-8 md:px-16 lg:px-20">
+                <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
                     {isMobile ? (
                         <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {mentors.map((mentor, index) => (
@@ -92,15 +83,15 @@ const Mentors = () => {
                     ) : (
                         <div className="flex flex-wrap justify-center lg:justify-between">
                             {mentors.map((mentor, index) => (
-                                <div key={index} className="w-full sm:w-1/2 lg:w-1/4 p-2 sm:p-4">
-                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 overflow-hidden`}>
-                                        <div className="w-28 h-28  sm:w-24 sm:h-24 rounded-full overflow-hidden mb-4">
+                                <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-2 lg:p-8 md:p-5">
+                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 lg:p-10 overflow-hidden`}>
+                                        <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-4">
                                             <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
                                         </div>
-                                        <h3 className="text-base sm:text-lg font-poppinsbold text-white">{mentor.name}</h3>
-                                        <p className="text-white text-justify text-xs sm:text-sm font-poppinsbold lg:mt-4 my-2 sm:my-2">{mentor.role}</p>
-                                        <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppinsregular my-2 sm:my-5">{mentor.description}</p>
-                                        <div className="mt-4 mx-auto ">
+                                        <h3 className="text-base sm:text-lg lg:text-xl font-poppinsbold text-white">{mentor.name}</h3>
+                                        <p className="text-white text-justify text-xs sm:text-sm lg:text-base font-poppinsbold lg:mt-2 my-2 sm:my-2">{mentor.role}</p>
+                                        <p className="text-white text-xs sm:text-sm lg:text-base mt-1 text-justify font-poppinsregular my-2 sm:my-2 lg:my-4 lg:mb-10">{mentor.description}</p>
+                                        <div className="mt-4 mx-auto lg:mt-auto">
                                             <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} />
                                         </div>
                                     </div>
@@ -116,7 +107,7 @@ const Mentors = () => {
                     {isMobile ? (
                         <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {companyLogos.map((logo, index) => (
-                                <div key={index} className="flex justify-center ">
+                                <div key={index} className="flex justify-center">
                                     <Image src={logo.src} alt={logo.alt} width={60} height={30} className="m-5" />
                                 </div>
                             ))}
@@ -135,3 +126,4 @@ const Mentors = () => {
 }
 
 export default Mentors;
+

@@ -43,16 +43,14 @@ const MasterclassContent = () => {
                         </div>
                         <div className="w-full lg:w-2/5 bg-customBlue p-8 px-10 lg:p-14 lg:px-18 lg:py-14 rounded-[38px]">
                             <h3 className="font-poppinsregular text-white text-xl lg:text-lg mb-2">Sílabo</h3>
-                            <h4 className="font-poppinsbold text-white text-xl lg:text-xl mb-2">Algorithms & Data Structures</h4>
+                            <h4 className="font-poppinsbold text-white text-xl lg:text-xl mb-2">Python y SQL aplicado a proyectos</h4>
                             <ul className="font-poppinsregular text-white list-disc text-xl lg:text-lg lg:px-6 leading-normal lg:leading-loose">
-                                <li>Arrays, Strings and Hash Tables</li>
-                                <li>Linked List, Stack and Queues</li>
-                                <li>Tree and Graph</li>
-                                <li>Graph next level</li>
-                                <li>Recursion and Backtracking</li>
-                                <li>Dynamic Programming</li>
-                                <li>Merge Sort</li>
-                                <li>Binary Search</li>
+                                <li>Manejo de Archivos en Python</li>
+                                <li>Consumo de APIs en Python</li>
+                                <li>Bases de Datos</li>
+                                <li>Estadística, trabajando con datos</li>
+                                <li>Fundamentos de Álgebra Lineal en Python</li>
+                                <li>Regresión Lineal en Python</li>
                             </ul>
                         </div>
                     </div>

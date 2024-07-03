@@ -2,8 +2,8 @@ import Image from "next/image";
 import NavBar from "@/components/Navbar";
 import Mentors from "@/components/bootcamp-data/Mentors";
 import Footer from "@/components/Footer";
-import Programs from "@/components/bootcamp-data/Programs";
-import BodyPythonEngineers from "@/components/bootcamp-data/BodyPythonEngineers";
+import Programs from "@/components/Programs";
+import Body from "@/components/bootcamp-data/Body";
 import '/styles/globals.css'
 import MasterclassContent from "@/components/bootcamp-data/MasterClassContent";
 
@@ -12,7 +12,7 @@ export default function CourseDetailPage() {
     <div className="flex flex-col">
       <NavBar />
       <main className="flex-grow">
-        <BodyPythonEngineers />
+        <Body />
         <Mentors />
         <Programs />
         <MasterclassContent />
