@@ -50,6 +50,7 @@ module.exports = {
         fuentetitulo: ['FuenteTitulo'],
         fuentetitulo2: ['FuenteTitulo2'],
         poppinsregular: ['PoppinsRegular'],
+        poppinsmedium: ['PoppinsMedium'],
         poppinssemibold: ['PoppinsSemiBold'],
       },
       width: {
