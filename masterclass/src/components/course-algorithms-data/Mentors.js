@@ -8,12 +8,12 @@ const Mentors = () => {
     const mentors = [
         {
             name: 'RACSO GALVAN',
-            role: 'Software Engineer | Engineering Manager | CTO',
-            description: 'Founder & CTO de Deep Pit Technology Manager de Ingeniería en Scotiabank Tech Lead en BCP. Ingeniero de Software Senior en startups como Crehana y Fandango.',
+            role: 'Maestría Ciencias de la Computación UNICAMP',
+            description: 'Ingeniero de Software con conocimientos sólidos en Algoritmos y Estructura de Datos. Participante de competencias ICPC.',
             company: 'Deep Skill',
             companyLogo: '/images/company/deep-skill.svg',
             bgColor: 'bg-colorCards',
-            image: '/images/mentors/jean-pierre.jpg',
+            image: '/images/mentors/.jpg',
         },
         {
             name: 'ELVIS CAPIA',
