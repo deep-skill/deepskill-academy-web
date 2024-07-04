@@ -2,6 +2,7 @@
 
 import Carousel from "./Carousel";
 import { useState, useEffect } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
 export const Body = () => {
     const images = [
@@ -34,9 +35,11 @@ export const Body = () => {
                     <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-3xl sm:text-2xl">
                         Conecta junto a nuestros expertos con el mundo tecnológico de hoy.
                     </p>
-                    <button className="bg-customBlue rounded-full text-2xl font-poppinssemibold  mt-9 p-2 px-9 md:text-lg sm:px-10">
-                        VER CURSOS
-                    </button>
+                    <ScrollLink to="my-courses" smooth={true} duration={600}>
+                        <button className="bg-customBlue rounded-full text-2xl font-poppinssemibold  mt-9 p-2 px-9 md:text-lg sm:px-10">
+                         VER CURSOS
+                        </button>
+                    </ScrollLink>
                     <div className="flex flex-col mb-10 sm:flex-row items-center mt-12 space-y-6 md:mt-20 md:space-x-9 sm:space-y-0 sm:space-x-10">
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-11 h-11 mb-2 sm:mb-0 sm:mr-2"></span>

@@ -29,7 +29,7 @@ const NavBar = () =>{
                 {/* Secciones de navegación en el lado derecho, ocultas en pantallas pequeñas */}
                 <ul className="hidden md:flex space-x-7">
                     <li><a href="/" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Inicio</a></li>
-                    <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">¿Quiénes somos?</a></li>
+                    <li><a href="#about" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">¿Quiénes somos?</a></li>
                     <li><a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para profesionales</a></li>
                     <li><a href="https://deepskill.space/" target="_blank" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para empresas</a></li>
                 </ul>
@@ -39,7 +39,7 @@ const NavBar = () =>{
             <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
                 <ul className="space-y-4 p-4">
                     <li><a href="/" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Inicio</a></li>
-                    <li><a href="#" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">¿Quiénes somos?</a></li>
+                    <li><a href="#about" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">¿Quiénes somos?</a></li>
                     <li><a href="#" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Para profesionales</a></li>
                     <li><a href="https://deepskill.space/" target="_blank" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Para empresas</a></li>
                 </ul>
