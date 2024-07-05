@@ -43,8 +43,8 @@ const CourseCard = () => {
     }, []);
 
     return (
-        <div className="w-full bg-gray-900 text-white bg-cover bg-center pb-12 md:pt-0 lg:pt-0 lg:pb-6 md:pb-6" style={{ backgroundImage: 'url("/images/background-coursecard.jpg")' }}>
-            <header className={`lg:bg-blue-700 lg:w-[65%] lg:rounded-br-[4rem] lg:py-10 py-7 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
+        <div  className="w-full bg-gray-900 text-white bg-cover bg-center pb-12 md:pt-0 lg:pt-0 lg:pb-6 md:pb-6" style={{ backgroundImage: 'url("/images/background-coursecard.jpg")' }}>
+            <header id="my-courses" className={`lg:bg-blue-700 lg:w-[65%] lg:rounded-br-[4rem] lg:py-10 py-7 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
                 <h1 className={`font-poppinsbold text-32px md:text-4xl lg:text-4xl md:ml-20 leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
                     Aprende a tu ritmo <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}>profundiza tus habilidades</span>
                 </h1>

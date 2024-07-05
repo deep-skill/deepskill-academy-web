@@ -85,14 +85,14 @@ const Mentors = () => {
                             {mentors.map((mentor, index) => (
                                 <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-2 lg:p-8 md:p-5">
                                     <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 lg:p-10 overflow-hidden`}>
-                                        <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-4">
-                                            <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
+                                        <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden mb-4">
+                                            <Image src={mentor.image} alt={mentor.name} width={128} height={128} className="object-cover rounded-full" />
                                         </div>
                                         <h3 className="text-base sm:text-lg lg:text-xl font-poppinsbold text-white">{mentor.name}</h3>
                                         <p className="text-white text-justify text-xs sm:text-sm lg:text-base font-poppinsbold lg:mt-2 my-2 sm:my-2">{mentor.role}</p>
                                         <p className="text-white text-xs sm:text-sm lg:text-base mt-1 text-justify font-poppinsregular my-2 sm:my-2 lg:my-4 lg:mb-10">{mentor.description}</p>
-                                        <div className="mt-4 mx-auto lg:mt-auto">
-                                            <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} />
+                                        <div className="mt-4 lg:mt-auto ">
+                                            <Image src={mentor.companyLogo} alt={mentor.company} width={176} height={60} className='lg:w-52'/>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ const Mentors = () => {
                     ) : (
                         <div className="flex flex-wrap justify-center mt-6 lg:mt-2">
                             {companyLogos.map((logo, index) => (
-                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-5 lg:mx-5 lg:my-1 md:w-40 sm:h-10" />
+                                <Image key={index} src={logo.src} alt={logo.alt} width={160} height={50} className="m-5 lg:mx-5 lg:my-1 md:w-40 sm:h-10" />
                             ))}
                         </div>
                     )}

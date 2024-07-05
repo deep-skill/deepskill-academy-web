@@ -48,7 +48,7 @@ const Carousel = ({ images }) => {
     return (
         <div
             id="carousel"
-            className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto mt-4 sm:mt-12 overflow-hidden flex items-center"
+            className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto mt-4 sm:mt-12 lg:mt-20 overflow-hidden flex items-center"
         >
             <style jsx>{`
                 @media (max-width: 390px) and (min-height: 844px) {

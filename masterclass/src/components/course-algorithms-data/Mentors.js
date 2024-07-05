@@ -8,12 +8,12 @@ const Mentors = () => {
     const mentors = [
         {
             name: 'RACSO GALVAN',
-            role: 'Software Engineer | Engineering Manager | CTO',
-            description: 'Founder & CTO de Deep Pit Technology Manager de Ingeniería en Scotiabank Tech Lead en BCP. Ingeniero de Software Senior en startups como Crehana y Fandango.',
+            role: 'Maestría Ciencias de la Computación UNICAMP',
+            description: 'Ingeniero de Software con conocimientos sólidos en Algoritmos y Estructura de Datos. Participante de competencias ICPC.',
             company: 'Deep Skill',
             companyLogo: '/images/company/deep-skill.svg',
             bgColor: 'bg-colorCards',
-            image: '/images/mentors/jean-pierre.jpg',
+            image: '/images/mentors/racso-galvan.png',
         },
         {
             name: 'ELVIS CAPIA',
@@ -85,8 +85,8 @@ const Mentors = () => {
                             {mentors.map((mentor, index) => (
                                 <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-2 lg:p-8 md:p-5">
                                     <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 lg:p-10 overflow-hidden`}>
-                                        <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-24 lg:h-24 rounded-full overflow-hidden mb-4">
-                                            <Image src={mentor.image} alt={mentor.name} width={96} height={96} className="object-cover rounded-full" />
+                                        <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden mb-4">
+                                            <Image src={mentor.image} alt={mentor.name} width={128} height={128} className="object-cover rounded-full" />
                                         </div>
                                         <h3 className="text-base sm:text-lg lg:text-xl font-poppinsbold text-white">{mentor.name}</h3>
                                         <p className="text-white text-justify text-xs sm:text-sm lg:text-base font-poppinsbold lg:mt-2 my-2 sm:my-2">{mentor.role}</p>

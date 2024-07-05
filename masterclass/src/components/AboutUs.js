@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
     return (
-        <div className="w-full py-16 bg-white">
+        <div id="about" className="w-full py-16 bg-white">
             <div className="container mx-auto px-4 lg:w-[90%] md:w-[90%]">
                 <div className="flex justify-center">
                     <div className="w-full flex flex-col md:flex-row md:w-[90%] lg:w-full">
@@ -23,10 +23,12 @@ const AboutUs = () => {
                                 Nuestra respuesta ha sido el diseño de una propuesta integral, que cubre el desarrollo y entretenimiento tecnológico, <span className="font-poppinsbold">liderada por el talento más representativo de nuestra región.</span>
                             </p>
                             <div className="flex justify-center md:justify-start mt-10">
-                                <button className="bg-blue-600 text-white font-poppinssemibold text-base lg:text-xl py-2 px-6 lg:px-10 rounded-3xl">
-                                    NUESTRO EQUIPO
-                                </button>
-                            </div>
+                             <button className="bg-blue-600 text-white font-poppinssemibold text-base lg:text-xl py-2 px-6 lg:px-10 rounded-3xl">
+                                <a href="#our-team">
+                                  NUESTRO EQUIPO
+                                </a>
+                             </button>
+                            </div> 
                         </div>
                         <div className="w-full md:w-[40%] flex justify-center lg:justify-end lg:ml-10 mt-8 md:mt-0">
                             <Image

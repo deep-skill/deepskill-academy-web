@@ -66,7 +66,7 @@ const Mentors = () => {
     }, []);
 
     return (
-        <div className="w-full flex flex-col min-h-screen">
+        <div id="our-team" className="w-full flex flex-col min-h-screen">
             <div className="bg-blue-900 py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
                 <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 lg:mt-10 lg:ml-20 md:ml-8 leading-normal lg:leading-normal sm:leading-normal">
                     <span className="block md:inline lg:ml-3 lg:text-5xl">Deep Mentors</span>
