@@ -99,9 +99,9 @@ const Mentors = () => {
                                         </div>
                                         <h3 className="text-base sm:text-lg font-poppinsbold text-white">{mentor.name}</h3>
                                         <p className="text-white text-justify text-xs sm:text-sm font-poppinsbold lg:mt-4 my-2 sm:my-2">{mentor.role}</p>
-                                        <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppinsregular my-2 sm:my-5">{mentor.description}</p>
-                                        <div className="mt-4 mx-auto ">
-                                            <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} />
+                                        <p className="text-white text-xs sm:text-sm mt-1 text-justify font-poppinsregular my-2 sm:my-5 lg:mb-10">{mentor.description}</p>
+                                        <div className="mt-4 lg:mt-auto ">
+                                            <Image src={mentor.companyLogo} alt={mentor.company} width={140} height={60} className='lg:w-44' />
                                         </div>
                                     </div>
                                 </div>

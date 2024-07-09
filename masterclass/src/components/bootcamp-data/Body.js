@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import { useState, useEffect } from 'react';
 import YouTube from 'react-youtube';
 
@@ -18,8 +17,8 @@ export const Body = () => {
     }, []);
 
     const opts = {
-        height: isMobile ? '200' : '180', // Reduced height for desktop view
-        width: isMobile ? '100%' : '355',
+        height: '100%',
+        width: '100%',
         playerVars: {
             autoplay: 1,
         },
@@ -28,10 +27,10 @@ export const Body = () => {
     return (
         <div className="bg-white p-4 lg:pb-0 w-full flex flex-col min-h-screen justify-center">
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
-                <div className="w-full md:w-1/2 mt-20 text-center md:text-left">
+                <div className="w-full md:w-[60%] mt-20 text-center md:text-left">
                     <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 leading-tight drop-shadow-lg md:text-6xl lg:text-8xl">
                         Bootcamp<br />
-                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-80px font-timeburnerbold leading-tight drop-shadow-lg">de Data</span>
+                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">de Data</span>
                     </h1>
                     <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-26px md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
@@ -40,50 +39,59 @@ export const Body = () => {
                         Diseñado para ingenieros que buscan maximizar sus conocimientos sumando
                         la habilidad de tratar datos y automatizar procesos con programación.
                     </p>
-                    <div className="flex flex-col mb-10 sm:flex-row items-center mt-12 space-y-6 md:mt-20 md:space-x-10 sm:space-y-0 sm:space-x-10">
+                    <div className="mt-6 lg:mt-12 mb-6 lg:mb-12 lg:w-[50%] flex justify-center lg:justify-left">
+                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-xl font-poppinssemibold p-2 lg:w-full px-9 md:text-base lg:text-xl sm:px-10 text-center">
+                            ¡ÚNETE AHORA!
+                        </a>
+                    </div>
+                    <div className="flex flex-col mb-10 lg:mb-16 sm:flex-row items-center mt-12 lg:mt-10 space-y-6 md:mt-20 md:space-x-16 sm:space-y-0 sm:space-x-10">
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--calendar-range] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText font-poppinsregular text-2xl md:text-base lg:text-xl">8 semanas</p>
+                            <p className="text-colorText font-poppinsregular text-xl md:text-base lg:text-xl">8 semanas</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-9 h-9  mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-2xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Virtual en vivo</p>
+                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Virtual en vivo</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--account-group-outline] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-2xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Máximo 10 participantes</p>
+                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl font-poppinsregular">Máximo 15 participantes</p>
                         </div>
                     </div>
                 </div>
                 
-                <div className="w-full md:w-1/2 flex flex-col items-center lg:mt-20 md:mt-0">
-                    <div className="md:w-[50%] flex flex-col items-center bg-colorBackgroundCards" style={{ maxWidth: opts.width }}>
-                        <div className="bg-blue-500 font-poppinsbold font-extrabold text-xl lg:text-2xl text-white text-center w-full py-4 mt-0">
+                <div className="w-full md:w-[40%] flex flex-col items-center lg:mt-24 md:mt-0">
+                    <div className="md:w-[78%] flex flex-col items-center bg-colorBackgroundCards w-full rounded-3xl">
+                        <div className="bg-blue-500 font-poppinsbold font-extrabold text-2xl lg:text-2xl text-white text-center w-full py-4 mt-6">
                             ¡QUEDAN POCOS CUPOS!
                         </div>
-                        <div className="mt-0">
-                            <YouTube videoId="Ni6SlemWS1Y" opts={opts} />
+                        <div className="w-full">
+                            <YouTube videoId="Ni6SlemWS1Y" opts={opts} className="w-full aspect-video" />
                         </div>
-                        <div className="text-customBlue font-poppinsbold mt-4 w-full px-7">
-                            <h1 className='font-poppinsbold text-xl text-left'>Módulo 1</h1>
-                            <p className='text-sm text-colorTextNavbar text-left'>Martes y jueves de 7 pm a 9 pm</p>
-                            <p className='text-sm text-colorTextNavbar text-left'>Jun 11 - Jul 04</p>
-                            <h1 className='font-poppinsbold text-xl mt-5 text-left'>Módulo 2</h1>
-                            <p className='text-sm text-colorTextNavbar text-left'>Martes y jueves de 7 pm a 9 pm</p>
-                            <p className='text-sm text-colorTextNavbar text-left'>Jun 11 - Jul 04</p>
-                            <div className="mt-4 text-center justify-between">
-                                <p className='text-sm text-customBlue'>1 módulo <span className='ml-12'>2 módulos</span></p>
-                                <p className='text-base text-customBlue'>USD 300.00 <span className='ml-6'>USD 500.00</span></p>
+                        <div className="text-customBlue font-poppinsbold mt-6 w-full px-7 lg:pb-6">
+                            <div className="flex items-center">
+                                <div className="flex-1">
+                                    <h1 className='font-poppinsbold text-xl text-left'>FECHA</h1>
+                                    <p className='font-poppinsmedium text-sm lg:text-lg text-colorTextNavbar text-left'>Iniciamos el 06 de agosto de 2024</p>
+                                </div>
+                                <div className="mx-4 h-full border-l-2 border-black"></div>
+                                <div className="flex-1">
+                                    <h1 className='font-poppinsbold text-xl text-left'>HORARIO</h1>
+                                    <p className='font-poppinsmedium lg:text-lg text-sm text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="bg-colorsButton font-poppinsbold lg:text-sm text-colorTextNavbar text-center w-full py-1 mt-2">
-                            HASTA EL 14/03 <br />
-                            <span className="font-poppinsbold text-2xl">USD 400.00 </span><br />
-                            2 módulos
+                        <div className="bg-colorsButton font-poppinsbold text-xs lg:text-sm text-colorTextNavbar rounded-3xl text-center w-full lg:p-3 py-3 lg:py-5 mt-5 flex justify-evenly">
+                            <div>
+                                HASTA EL 10/07 <br />
+                                <span className="font-poppinsbold text-xl lg:text-3xl">USD 200.00 </span>
+                            </div>
+                            <div>
+                                <div className="text-blue-500 text-xl lg:text-2xl line-through lg:mt-5 mt-3">
+                                    USD 250.00
+                                </div>
+                            </div>
                         </div>
-                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-xl font-poppinssemibold mt-4 mb-6 p-2 px-9 w-[90%] md:text-base lg:text-xl sm:px-10 text-center">
-                            ¡ÚNETE AHORA!
-                        </a>
                     </div>
                 </div>
 
@@ -93,5 +101,6 @@ export const Body = () => {
 }
 
 export default Body;
+
 
 
