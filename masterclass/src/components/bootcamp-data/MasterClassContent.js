@@ -38,21 +38,22 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                SOLICITA MÁS DETALLES AQUÍ
+                                <a href="https://drive.google.com/file/d/1aNXDM7BQ7derq1nnQtPeC2w2vLoMdoW_/view?usp=sharing" target="_blank">
+                                    SOLICITA MÁS DETALLES AQUÍ
+                                </a>
                             </button>
                         </div>
                         <div className="w-full lg:w-2/5 bg-customBlue p-8 px-10 lg:p-14 lg:px-18 lg:py-14 rounded-[38px]">
                             <h3 className="font-poppinsregular text-white text-xl lg:text-lg mb-2">Sílabo</h3>
-                            <h4 className="font-poppinsbold text-white text-xl lg:text-xl mb-2">Algorithms & Data Structures</h4>
+                            <h4 className="font-poppinsbold text-white text-xl lg:text-xl mb-2">Módulo 1: Introducción a  Python</h4>
                             <ul className="font-poppinsregular text-white list-disc text-xl lg:text-lg lg:px-6 leading-normal lg:leading-loose">
-                                <li>Arrays, Strings and Hash Tables</li>
-                                <li>Linked List, Stack and Queues</li>
-                                <li>Tree and Graph</li>
-                                <li>Graph next level</li>
-                                <li>Recursion and Backtracking</li>
-                                <li>Dynamic Programming</li>
-                                <li>Merge Sort</li>
-                                <li>Binary Search</li>
+                                <li>Introducción a Python</li>
+                                <li>Estructuras de Control</li>
+                                <li>Strings, Listas y Tuplas</li>
+                                <li>Diccionarios y Sets</li>
+                                <li>Funciones y Módulos</li>
+                                <li>Programación funcional</li>
+                                <li>Programación orientada a objetos</li>
                             </ul>
                         </div>
                     </div>

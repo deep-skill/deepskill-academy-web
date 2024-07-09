@@ -38,7 +38,9 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                SOLICITA MÁS DETALLES AQUÍ
+                                <a href="https://drive.google.com/file/d/1ino9AR9Jz-FBvTgKglTN6yEVc5f7p0IZ/view?usp=sharing" target="_blank">
+                                    SOLICITA MÁS DETALLES AQUÍ
+                                </a>
                             </button>
                         </div>
                         <div className="w-full lg:w-2/5 bg-customBlue p-8 px-10 lg:p-14 lg:px-18 lg:py-14 rounded-[38px]">

@@ -1,4 +1,7 @@
+'use client'
+import { useState, useEffect } from 'react';
 import Image from "next/image";
+import { Link as ScrollLink } from 'react-scroll';
 
 const AboutUs = () => {
     return (
@@ -23,11 +26,11 @@ const AboutUs = () => {
                                 Nuestra respuesta ha sido el diseño de una propuesta integral, que cubre el desarrollo y entretenimiento tecnológico, <span className="font-poppinsbold">liderada por el talento más representativo de nuestra región.</span>
                             </p>
                             <div className="flex justify-center md:justify-start mt-10">
+                            <ScrollLink to="our-team" smooth={true} duration={600} offset={-40}>
                              <button className="bg-blue-600 text-white font-poppinssemibold text-base lg:text-xl py-2 px-6 lg:px-10 rounded-3xl">
-                                <a href="#our-team">
-                                  NUESTRO EQUIPO
-                                </a>
+                                NUESTRO EQUIPO
                              </button>
+                             </ScrollLink>
                             </div> 
                         </div>
                         <div className="w-full md:w-[40%] flex justify-center lg:justify-end lg:ml-10 mt-8 md:mt-0">
@@ -43,7 +46,7 @@ const AboutUs = () => {
                 </div>
                 <div className="flex justify-center mt-12">
                     <div className="w-full lg:w-full md:w-[90%]">
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-14 mb-10">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-14 mb-4">
                             <div>
                                 <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl mb-4">
                                     Software Deep Tech
@@ -68,7 +71,7 @@ const AboutUs = () => {
                                     Misión Latinoamérica
                                 </h4>
                                 <p className="font-poppinsregular text-colorTextNavbar text-base md:text-lg text-justify">
-                                Nos propusimos llevar a Latinoamérica a su independencia tecnológica, cuando menos en el Desarrollo de Software, sector en el que somos expertos.
+                                    Nos propusimos llevar a Latinoamérica a su independencia tecnológica, cuando menos en el Desarrollo de Software, sector en el que somos expertos.
                                 </p>
                             </div>
                         </div>

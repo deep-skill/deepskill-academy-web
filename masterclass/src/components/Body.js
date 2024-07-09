@@ -35,7 +35,7 @@ export const Body = () => {
                     <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-3xl sm:text-2xl">
                         Conecta junto a nuestros expertos con el mundo tecnológico de hoy.
                     </p>
-                    <ScrollLink to="my-courses" smooth={true} duration={600}>
+                    <ScrollLink to="my-courses" smooth={true} duration={600} offset={-60}>
                         <button className="bg-customBlue rounded-full text-2xl font-poppinssemibold  mt-9 p-2 px-9 md:text-lg sm:px-10">
                          VER CURSOS
                         </button>
