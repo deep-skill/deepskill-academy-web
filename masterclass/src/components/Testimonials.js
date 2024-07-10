@@ -55,7 +55,7 @@ const Testimonials = () => {
                 <h2 className="text-center text-32px md:text-left md:text-4xl font-poppinsbold text-colorTextNavbar -mb-1">TESTIMONIOS</h2>
                 <h3 className=" text-colorTextSubtitulo text-center text-17px md:text-left md:text-2xl font-poppinssemibold">Experiencias de nuestros ex alumnos</h3>
             </div>
-            <div className="container mx-auto px-4 md:px-20">
+            <div className="container mx-auto px-4 md:px-10 lg:px-0 xl:px-12 2xl:px-20">
                 {isMobile ? (
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                         {testimonials.map((testimonial, index) => (
@@ -76,7 +76,7 @@ const Testimonials = () => {
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                         <div className="flex">
                             {testimonials.slice(0, 3).map((testimonial, index) => (
-                                <div key={index} className="w-1/3 p-5 px-8">
+                                <div key={index} className="w-1/3 p-5 px-8 2xl:px-6 xl:px-4 lg:px-4">
                                     <div className="h-full bg-colorsTestimonial rounded-lg flex flex-col items-center text-left p-6">
                                         <div className="w-28 h-28 rounded-full overflow-hidden mb-4">
                                             <Image src={testimonial.image} alt={testimonial.name} width={96} height={96} className="object-cover" />
@@ -84,14 +84,14 @@ const Testimonials = () => {
                                         <h3 className="text-customBlue text-2xl font-poppinsbold">{testimonial.name}</h3>
                                         <p className="text-customBlue text-justify text-base font-poppinsregular my-1">{testimonial.role}</p>
                                         <p className="text-customBlue text-justify text-base font-poppinsregular">{testimonial.country}</p>
-                                        <p className="text-colorTextNavbar text-base mt-2 text-justify font-poppinsregular my-6 lg:mx-8 lg:mb-10">{testimonial.description}</p>
+                                        <p className="text-colorTextNavbar text-base mt-2 text-justify font-poppinsregular my-6 2xl:mx-6 xl:mx-2 lg:mx-1 lg:mb-10">{testimonial.description}</p>
                                     </div>
                                 </div>
                             ))}
                         </div>
                         <div className="flex">
                             {testimonials.slice(1).map((testimonial, index) => (
-                                <div key={index} className="w-1/3 p-5">
+                                <div key={index} className="w-1/3 p-5 px-8 2xl:px-8 xl:px-4 lg:px-4">
                                     <div className="h-full bg-colorsTestimonial rounded-lg flex flex-col items-center text-left p-6">
                                         <div className="w-28 h-28 rounded-full overflow-hidden mb-4">
                                             <Image src={testimonial.image} alt={testimonial.name} width={96} height={96} className="object-cover" />
@@ -99,7 +99,7 @@ const Testimonials = () => {
                                         <h3 className="text-customBlue text-2xl font-poppinsbold">{testimonial.name}</h3>
                                         <p className="text-customBlue text-justify text-base font-poppinsregular my-1">{testimonial.role}</p>
                                         <p className="text-customBlue text-justify text-base font-poppinsregular">{testimonial.country}</p>
-                                        <p className="text-colorTextNavbar text-base mt-2 text-justify font-poppinsregular my-6 lg:mx-8 lg:mb-10">{testimonial.description}</p>
+                                        <p className="text-colorTextNavbar text-base mt-2 text-justify font-poppinsregular my-6 2xl:mx-6 xl:mx-2 lg:mx-1 lg:mb-10">{testimonial.description}</p>
                                     </div>
                                 </div>
                             ))}

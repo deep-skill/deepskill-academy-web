@@ -26,13 +26,13 @@ export const Body = () => {
 
     return (
         <div className="bg-white p-4 w-full flex flex-col min-h-screen justify-center">
-            <div className="lg:pl-16 md:pl-5 flex flex-col md:flex-row items-center md:items-start">
+            <div className="lg:pl-10 xl:pl-10 2xl:pl-16 md:pl-5 flex flex-col md:flex-row items-center md:items-start">
                 <div className="w-full md:w-3/5 mt-12 text-center md:text-left">
-                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 drop-shadow-lg lg:text-8xl ">
+                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 drop-shadow-lg lg:text-80px 2xl:text-8xl">
                         Aquí empieza <br />
-                        <span className="text-colorTextNavbar text-5xl font-timeburnerbold md:text-7xl lg:text-80px leading-tight drop-shadow-lg">tu futuro tech</span>
+                        <span className="text-colorTextNavbar text-5xl font-timeburnerbold md:text-7xl lg:text-7xl 2xl:text-80px leading-tight drop-shadow-lg">tu futuro tech</span>
                     </h1>
-                    <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-3xl sm:text-2xl">
+                    <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-2xl xl:text-2xl 2xl:text-3xl sm:text-2xl">
                         Conecta junto a nuestros expertos con el mundo tecnológico de hoy.
                     </p>
                     <ScrollLink to="my-courses" smooth={true} duration={600} offset={-60}>
@@ -40,18 +40,18 @@ export const Body = () => {
                          VER CURSOS
                         </button>
                     </ScrollLink>
-                    <div className="flex flex-col mb-10 sm:flex-row items-center mt-12 space-y-6 md:mt-20 md:space-x-9 sm:space-y-0 sm:space-x-10">
+                    <div className="flex flex-col mb-10 sm:flex-row items-center mt-12 space-y-6 md:mt-20 md:space-x-4 xl:space-x-9 2xl:space-x-9 sm:space-y-0 sm:space-x-10">
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-11 h-11 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText font-poppinsregular text-2xl md:text-base lg:text-lg ">Online | En vivo | Remoto</p>
+                            <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-11 h-11 lg:w-9 lg:h-9 2xl:w-11 2xl:h-11 mb-2 sm:mb-0 sm:mr-2"></span>
+                            <p className="text-colorText font-poppinsregular text-2xl md:text-base lg:text-base xl:text-base 2xl:text-lg">Online | En vivo | Remoto</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <span className="icon-[material-symbols--school-outline-rounded] text-colorsIcon w-11 h-11 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-2xl sm:text-xl md:text-base font-poppinsregular lg:text-lg">Mentores expertos</p>
+                            <span className="icon-[material-symbols--school-outline-rounded] text-colorsIcon w-11 h-11 lg:w-9 lg:h-9 2xl:w-11 2xl:h-11 mb-2 sm:mb-0 sm:mr-2"></span>
+                            <p className="text-colorText text-2xl sm:text-xl md:text-base font-poppinsregular lg:text-base xl:text-base 2xl:text-lg">Mentores expertos</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
-                            <span className="icon-[material-symbols--rocket-launch-outline] text-colorsIcon w-11 h-11 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-2xl sm:text-xl md:text-base font-poppinsregular lg:text-lg ">Vacantes limitadas</p>
+                            <span className="icon-[material-symbols--rocket-launch-outline] text-colorsIcon w-11 h-11 lg:w-9 lg:h-9 2xl:w-11 2xl:h-11 mb-2 sm:mb-0 sm:mr-2"></span>
+                            <p className="text-colorText text-2xl sm:text-xl md:text-base font-poppinsregular lg:text-base xl:text-base 2xl:text-lg ">Vacantes limitadas</p>
                         </div>
                     </div>
                 </div>
