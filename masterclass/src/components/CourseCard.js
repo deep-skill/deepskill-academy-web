@@ -45,13 +45,13 @@ const CourseCard = () => {
     return (
         <div  className="w-full bg-gray-900 text-white bg-cover bg-center pb-12 md:pt-0 lg:pt-0 lg:pb-6 md:pb-6" style={{ backgroundImage: 'url("/images/background-coursecard.jpg")' }}>
             <header id="my-courses" className={`lg:bg-blue-700 lg:w-[65%] lg:rounded-br-[4rem] lg:py-10 py-7 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
-                <h1 className={`font-poppinsbold text-32px md:text-4xl lg:text-4xl md:ml-20 leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
-                    Aprende a tu ritmo <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}>profundiza tus habilidades</span>
+                <h1 className={`font-poppinsbold text-32px md:text-4xl lg:text-3xl xl:text-3xl 2xl:text-4xl md:ml-20 leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
+                    Aprende a tu ritmo <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-3xl xl:text-3xl 2xl:text-4xl`}>profundiza tus habilidades</span>
                 </h1>
             </header>
-            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-8xl mx-auto px-4 sm:px-4 2xl:px-8 xl:px-2 lg:px-1">
                 <main className={`py-8 lg:pt-10 ${isMobile ? 'mt-4' : 'mt-0'}`}>
-                    <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
+                    <div className="container mx-auto px-4 sm:px-8 md:px-10 2xl:px-20 xl:px-14 lg:px-1">
                         {isMobile ? (
                             <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                                 {courses.map((course, index) => (
@@ -77,7 +77,7 @@ const CourseCard = () => {
                                 ))}
                             </Carousel>
                         ) : (
-                            <div className="lg:pt-8 grid gap-16 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                            <div className="lg:pt-8 grid gap-16 2xl:gap-16 xl:gap-10 lg:gap-7 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                                 {courses.map((course, index) => (
                                     <div key={index} className="bg-white text-gray-900 rounded-lg shadow-md flex flex-col">
                                         <img
