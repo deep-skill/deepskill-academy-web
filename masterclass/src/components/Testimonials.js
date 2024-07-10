@@ -55,7 +55,7 @@ const Testimonials = () => {
                 <h2 className="text-center text-32px md:text-left md:text-4xl font-poppinsbold text-colorTextNavbar -mb-1">TESTIMONIOS</h2>
                 <h3 className=" text-colorTextSubtitulo text-center text-17px md:text-left md:text-2xl font-poppinssemibold">Experiencias de nuestros ex alumnos</h3>
             </div>
-            <div className="container mx-auto px-4 md:px-10 lg:px-0 xl:px-12">
+            <div className="container mx-auto px-4 md:px-10 lg:px-0 xl:px-12 2xl:px-20">
                 {isMobile ? (
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                         {testimonials.map((testimonial, index) => (
@@ -76,7 +76,7 @@ const Testimonials = () => {
                     <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                         <div className="flex">
                             {testimonials.slice(0, 3).map((testimonial, index) => (
-                                <div key={index} className="w-1/3 p-5 px-8 2xl:px-8 xl:px-4 lg:px-4">
+                                <div key={index} className="w-1/3 p-5 px-8 2xl:px-6 xl:px-4 lg:px-4">
                                     <div className="h-full bg-colorsTestimonial rounded-lg flex flex-col items-center text-left p-6">
                                         <div className="w-28 h-28 rounded-full overflow-hidden mb-4">
                                             <Image src={testimonial.image} alt={testimonial.name} width={96} height={96} className="object-cover" />
