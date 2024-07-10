@@ -58,12 +58,12 @@ const Mentors = () => {
 
     return (
         <div className="w-full flex flex-col min-h-screen">
-            <div className="bg-blue-900 py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
-                <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 lg:mt-10 lg:ml-20 md:ml-8 leading-normal lg:leading-normal sm:leading-normal">
-                    <span className="block md:inline lg:ml-3 lg:text-5xl">Deep Mentors</span>
-                    <span className="block px-2 text-xl lg:text-3xl pt-2 lg:ml-2">Los líderes Tech más top de la región detrás de tu crecimiento profesional.</span>
+            <div className="bg-blue-900 py-12 xl:py-5 2xl:py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
+                <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 xl:mb-10 2xl:mb-12 lg:mt-10 lg:ml-20 md:ml-8 leading-normal lg:leading-normal sm:leading-normal">
+                    <span className="block md:inline lg:ml-3 lg:text-4xl xl:text-4xl 2xl:text-5xl">Deep Mentors</span>
+                    <span className="block px-2 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl pt-2 lg:ml-2">Los líderes Tech más top de la región detrás de tu crecimiento profesional.</span>
                 </h2>
-                <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-20">
+                <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-16 2xl:px-20">
                     {isMobile ? (
                         <Carousel showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {mentors.map((mentor, index) => (
@@ -83,8 +83,8 @@ const Mentors = () => {
                     ) : (
                         <div className="flex flex-wrap justify-center lg:justify-between">
                             {mentors.map((mentor, index) => (
-                                <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-2 lg:p-8 md:p-5">
-                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 lg:p-10 overflow-hidden`}>
+                                <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2 sm:p-2 lg:p-5 2xl:p-8 md:p-5">
+                                    <div className={`h-full ${mentor.bgColor} rounded-lg flex flex-col items-start text-left p-4 sm:p-6 lg:p-8 2xl:p-10 overflow-hidden`}>
                                         <div className="w-28 h-28 sm:w-24 sm:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden mb-4">
                                             <Image src={mentor.image} alt={mentor.name} width={128} height={128} className="object-cover rounded-full" />
                                         </div>
