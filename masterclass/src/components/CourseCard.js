@@ -14,16 +14,16 @@ const CourseCard = () => {
             link: '/bootcamp-data'
         },
         {
-            title: 'PYTHON & SQL FOR DATA PROJECTS',
+            title: 'PYTHON & SQL APLICADO A PROYECTOS',
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
-            date: '00/00/0000',
+            date: '11/07/2024',
             imageSrc: '/images/image-course-card/image-course2.jpg',
             link: '/python-sql-data'
         },
         {
             title: 'ALGORITHMS & DATA STRUCTURES',
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
-            date: '00/00/0000',
+            date: '06/08/2024',
             imageSrc: '/images/image-course-card/image-course3.jpg',
             link: '/algorithms-data'
         },

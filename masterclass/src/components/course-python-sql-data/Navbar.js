@@ -11,9 +11,9 @@ const NavBar = () =>{
     };
     return (
         <nav className="bg-colorNavbar text-white px-6 py-5 w-full fixed top-0 z-50">
-            <div className="container mx-auto flex items-center justify-between px-6">
+            <div className="container mx-auto flex items-center justify-between px-6 md:px-1 lg:px-1 xl:px-4 2xl:px-6">
                 {/* Logo en el lado izquierdo */}
-                <div className="flex items-center ml-10">
+                <div className="flex items-center lg:ml-4 xl:ml-7 2xl:ml-10 ml-10 md:ml-0">
                     <Image src={deepSkillImg} alt="logo" width={180} />
                 </div>
                 
