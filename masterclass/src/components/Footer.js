@@ -22,16 +22,16 @@ const Footer = () => {
 
             {/* Social Media Icons */}
             <div className="flex space-x-6 mb-6 md:mb-0">
-                <Link href="https://www.linkedin.com/company/deep-skill/" target="_blank" className="text-white hover:text-gray-200">
+                <Link href="https://www.linkedin.com/company/deep-skill/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
                     <span className="icon-[akar-icons--linkedin-box-fill]"></span>
                 </Link>
-                <Link href="https://www.facebook.com/Deep-Skill-Academy-117339758058300" target="_blank" className="text-white hover:text-gray-200">
+                <Link href="https://www.facebook.com/Deep-Skill-Academy-117339758058300" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
                     <span className="icon-[akar-icons--facebook-fill]"></span>
                 </Link>
-                <Link href="https://www.twitter.com" className="text-white hover:text-gray-200">
+                <Link href="https://x.com/_deepskill" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
                     <span className="icon-[akar-icons--twitter-fill]"></span>
                 </Link>
-                <Link href="https://www.instagram.com/deepskill.academy/" target="_blank" className="text-white hover:text-gray-200">
+                <Link href="https://www.instagram.com/deepskill.academy/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
                     <span className="icon-[akar-icons--instagram-fill]"></span>
                 </Link>
             </div>

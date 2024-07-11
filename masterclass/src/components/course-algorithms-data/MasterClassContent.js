@@ -38,7 +38,7 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                <a href="https://drive.google.com/file/d/1ino9AR9Jz-FBvTgKglTN6yEVc5f7p0IZ/view?usp=sharing" target="_blank">
+                                <a href="https://drive.google.com/file/d/1ino9AR9Jz-FBvTgKglTN6yEVc5f7p0IZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     TEMARIO DETALLADO
                                 </a>
                             </button>
