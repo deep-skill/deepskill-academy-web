@@ -32,7 +32,7 @@ export const Body = () => {
                         Aquí empieza <br />
                         <span className="text-colorTextNavbar text-5xl font-timeburnerbold md:text-7xl lg:text-7xl 2xl:text-80px leading-tight drop-shadow-lg">tu futuro tech</span>
                     </h1>
-                    <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-2xl xl:text-2xl 2xl:text-3xl sm:text-2xl">
+                    <p className="lg:w-4/5 text-colorText mt-8 px-6 pl-1 text-2xl font-poppinsregular leading-normal lg:leading-relaxed lg:text-2xl xl:text-2xl 2xl:text-2xl sm:text-2xl">
                         Conecta junto a nuestros expertos con el mundo tecnológico de hoy.
                     </p>
                     <ScrollLink to="my-courses" smooth={true} duration={600} offset={-60}>
