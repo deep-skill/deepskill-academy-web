@@ -26,15 +26,15 @@ const MasterclassContent = () => {
                         Contenido de la masterclass <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}></span>
                     </h1>
                     {!isMobile && (
-                        <h3 className={`font-poppinssemibold text-xl md:text-3xl lg:text-xl xl:text-xl 2xl:text-2xl md:ml-20 xl:leading-10 2xl:leading-relaxed ${isMobile ? 'p-0' : ''} drop-shadow-md`}>
+                        <h3 className={`font-poppinssemibold text-xl md:text-3xl lg:text-xl xl:text-xl 2xl:text-2xl md:ml-20 xl:leading-10 2xl:leading-loose ${isMobile ? 'p-0' : ''} drop-shadow-md`}>
                             Lo que necesitas saber 
                         </h3>
                     )}
                 </header>
-                <div className="container px-8 sm:px-8 md:px-10 lg:px-1 xl:px-10 pt-40">
+                <div className="container px-8 sm:px-8 md:px-10 lg:px-1 xl:px-10 pt-40 2xl:pt-24">
                     <div className="flex flex-wrap items-center mb-8 lg:space-x-24 xl:space-x-20">
                         <div className="w-full md:w-1/2 lg:px-12 xl:px-12">
-                            <p className="font-poppinsregular text-white lg:text-xl xl:text-xl 2xl:text-2xl text-xl text-center lg:text-justify md:text-left mb-10 lg:mb-10 xl:mb-15 2xl:mb-10">
+                            <p className="font-poppinsregular text-white lg:text-xl xl:text-xl 2xl:text-xl text-xl text-center lg:text-justify md:text-left mb-10 lg:mb-10 xl:mb-15 2xl:mb-10">
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
@@ -58,7 +58,7 @@ const MasterclassContent = () => {
                     </div>
                 </div>
                 <div className="w-full text-center text-white py-0 px-0">
-                    <p className="font-poppinssemibold lg:pt-2 xl:pt-2 2xl:pt-10 text-2xl lg:text-2xl lg:text-left lg:ml-20">Tecnologías utilizadas</p>
+                    <p className="font-poppinssemibold lg:pt-2 xl:pt-2 2xl:pt-7 text-2xl 2xl:text-xl lg:text-xl lg:text-left lg:ml-20">Tecnologías utilizadas</p>
                     <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-4 xl:px-10">
                         {isMobile ? (
                             <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
