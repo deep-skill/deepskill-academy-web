@@ -43,7 +43,7 @@ const NavBar = () => {
             <a href="#" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para profesionales</a>
           </li>
           <li>
-            <a href="https://deepskill.space/" target="_blank" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para empresas</a>
+            <a href="https://deepskill.space/" target="_blank" rel="noopener noreferrer" className="text-colorTextNavbar hover:text-gray-400 text-sm font-poppinsregular">Para empresas</a>
           </li>
         </ul>
       </div>
@@ -63,7 +63,7 @@ const NavBar = () => {
             <a href="#" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Para profesionales</a>
           </li>
           <li>
-            <a href="https://deepskill.space/" target="_blank" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Para empresas</a>
+            <a href="https://deepskill.space/" target="_blank" rel="noopener noreferrer" className="text-colorTextNavbar block px-4 py-2 hover:bg-colorsButton">Para empresas</a>
           </li>
         </ul>
       </div>

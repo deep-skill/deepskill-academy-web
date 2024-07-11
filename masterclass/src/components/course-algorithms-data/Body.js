@@ -40,7 +40,7 @@ export const Body = () => {
                         la habilidad de tratar datos y automatizar procesos con programación.
                     </p>
                     <div className="mt-6 lg:mt-12 mb-6 lg:mb-12 lg:w-[42%] 2xl:w-[50%] flex justify-center lg:justify-left">
-                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" className="bg-customBlue rounded-full text-xl font-poppinssemibold p-2 lg:w-full px-9 md:text-base lg:text-xl sm:px-10 text-center">
+                        <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" rel="noopener noreferrer" className="bg-customBlue rounded-full text-xl font-poppinssemibold p-2 lg:w-full px-9 md:text-base lg:text-xl sm:px-10 text-center">
                             ¡ÚNETE AHORA!
                         </a>
                     </div>
