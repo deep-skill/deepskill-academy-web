@@ -67,10 +67,10 @@ const Mentors = () => {
 
     return (
         <div id="our-team" className="w-full flex flex-col min-h-screen">
-            <div className="bg-blue-900 py-12 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
-                <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 lg:mt-10 lg:ml-16 2xl:ml-20 md:ml-8 leading-normal lg:leading-normal sm:leading-normal">
-                    <span className="block md:inline lg:ml-3 lg:text-4xl xl:text-4xl 2xl:text-5xl">Deep Mentors</span>
-                    <span className="block px-2 text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl pt-2 lg:ml-2">Los líderes Tech más top de la región detrás de tu crecimiento profesional.</span>
+            <div className="bg-blue-900 py-12 2xl:py-9 w-full" style={{ backgroundImage: 'url("/images/background.png")', backgroundBlendMode: 'overlay' }}>
+                <h2 className="text-4xl text-center md:text-left font-poppinsbold text-white mb-12 lg:mt-10 2xl:mt-5 lg:ml-16 2xl:ml-20 md:ml-8 leading-normal lg:leading-normal sm:leading-normal">
+                    <span className="block md:inline lg:ml-3 lg:text-4xl xl:text-4xl 2xl:text-40px">Deep Mentors</span>
+                    <span className="block px-2 text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl pt-2 lg:ml-2">Los líderes Tech más top de la región detrás de tu crecimiento profesional.</span>
                 </h2>
                 <div className="container mx-auto px-8 sm:px-8 md:px-16 lg:px-0 xl:px-16 2xl:px-20">
                     {isMobile ? (
@@ -124,7 +124,7 @@ const Mentors = () => {
                     ) : (
                         <div className="flex flex-wrap justify-center mt-6 lg:mt-2">
                             {companyLogos.map((logo, index) => (
-                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-5 lg:mx-5 lg:my-1 md:w-40 sm:h-10" />
+                                <Image key={index} src={logo.src} alt={logo.alt} width={100} height={50} className="m-5 lg:mx-5 2xl:mx-8 lg:my-1 md:w-40 sm:h-10" />
                             ))}
                         </div>
                     )}

@@ -10,10 +10,10 @@ const AboutUs = () => {
                 <div className="flex justify-center">
                     <div className="w-full flex flex-col md:flex-row md:w-[90%] lg:w-full">
                         <div className="w-full md:w-[55%]">
-                            <h2 className="text-colorTextNavbar text-32px md:text-40px lg:text-5xl xl:text-4xl 2xl:text-5xl text-center font-poppinsbold md:text-left ">
+                            <h2 className="text-colorTextNavbar text-32px md:text-40px lg:text-5xl xl:text-4xl 2xl:text-40px text-center font-poppinsbold md:text-left ">
                                 ¿Quiénes somos?
                             </h2>
-                            <h3 className="text-colorTextSubtitulo font-poppinssemibold mb-8 text-center text-2xl md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl md:text-left">
+                            <h3 className="text-colorTextSubtitulo font-poppinssemibold mb-8 text-center text-2xl md:text-lg lg:text-xl xl:text-2xl 2xl:text-2xl md:text-left">
                                 Creamos tecnología
                             </h3>
                             <p className="text-colorTextNavbar mb-4 text-justify text-base md:text-base xl:text-base 2xl:text-lg font-poppinsregular">
@@ -25,7 +25,7 @@ const AboutUs = () => {
                             <p className="text-colorTextNavbar mb-4 text-justify text-base md:text-base xl:text-base 2xl:text-lg font-poppinsregular">
                                 Nuestra respuesta ha sido el diseño de una propuesta integral, que cubre el desarrollo y entretenimiento tecnológico, <span className="font-poppinsbold">liderada por el talento más representativo de nuestra región.</span>
                             </p>
-                            <div className="flex justify-center md:justify-start mt-10">
+                            <div className="flex justify-center md:justify-start mt-10 2xl:mt-12">
                             <ScrollLink to="our-team" smooth={true} duration={600} offset={-40}>
                              <button className="bg-blue-600 text-white font-poppinssemibold text-base lg:text-xl py-2 px-6 lg:px-10 rounded-3xl">
                                 NUESTRO EQUIPO
@@ -37,7 +37,7 @@ const AboutUs = () => {
                             <Image
                                 src="/images/about.png"
                                 alt="Equipo trabajando"
-                                width={500}
+                                width={480}
                                 height={450}
                                 className="rounded-75px"
                             />
@@ -48,29 +48,29 @@ const AboutUs = () => {
                     <div className="w-full lg:w-full md:w-[90%]">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-14 mb-4">
                             <div>
-                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-2xl mb-4">
+                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-xl mb-4">
                                     Software Deep Tech
                                 </h4>
-                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-lg text-justify">
+                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-base text-justify">
                                     Desarrollamos <span className="font-poppinsbold">software de calidad</span> basado en la necesidad del modelo de negocio.
                                 </p>
-                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-lg text-justify">
+                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-base text-justify">
                                     Tenemos un capítulo enfocado en la solución de problemas de <span className="font-poppinsbold">ciencia e ingeniería</span> con tecnología.
                                 </p>
                             </div>
                             <div>
-                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-2xl mb-4">
+                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-2l mb-4">
                                     Filosofía de profundidad
                                 </h4>
-                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-lg text-justify">
+                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-base text-justify">
                                     Nuestra propuesta de entrenamiento unifica el estudio profundo de la teoría computacional con las más modernas técnicas de desarrollo de software aplicadas en la industria.
                                 </p>
                             </div>
                             <div>
-                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-2xl mb-4">
+                                <h4 className="font-poppinsbold text-colorTextNavbar text-2xl md:text-2xl lg:text-xl 2xl:text-xl mb-4">
                                     Misión Latinoamérica
                                 </h4>
-                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-lg text-justify">
+                                <p className="font-poppinsregular text-colorTextNavbar text-base md:text-base xl:text-base 2xl:text-base text-justify">
                                     Nos propusimos llevar a Latinoamérica a su independencia tecnológica, cuando menos en el Desarrollo de Software, sector en el que somos expertos.
                                 </p>
                             </div>

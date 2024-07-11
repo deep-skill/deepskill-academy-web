@@ -32,13 +32,15 @@ export const Body = () => {
                         Algorithms<br />
                         <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-68px 2xl:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">& Data Structures</span>
                     </h1>
-                    <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-26px md:text-xl sm:text-2xl">
+                    <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-2xl md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
                     </p>
-                    <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl sm:text-2xl lg:leading-snug">
-                        Diseñado para ingenieros que buscan maximizar sus conocimientos sumando
-                        la habilidad de tratar datos y automatizar procesos con programación.
-                    </p>
+                    <div className='2xl:w-[95%]'>
+                        <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-xl sm:text-2xl lg:leading-snug">
+                            Diseñado para ingenieros que buscan maximizar sus conocimientos sumando
+                            la habilidad de tratar datos y automatizar procesos con programación.
+                        </p>
+                    </div>
                     <div className="mt-6 lg:mt-12 mb-6 lg:mb-12 lg:w-[42%] 2xl:w-[50%] flex justify-center lg:justify-left">
                         <a href="https://wa.me/message/NLMBFZBSKV64M1" target="_blank" rel="noopener noreferrer" className="bg-customBlue rounded-full text-xl font-poppinssemibold p-2 lg:w-full px-9 md:text-base lg:text-xl sm:px-10 text-center">
                             ¡ÚNETE AHORA!

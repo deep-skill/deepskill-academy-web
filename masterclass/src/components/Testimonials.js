@@ -52,8 +52,8 @@ const Testimonials = () => {
     return (
         <div className="w-full bg-white py-12">
             <div className="w-85% lg:w-[90%] md:w-4/5 mx-auto mb-8">
-                <h2 className="text-center text-32px md:text-left md:text-4xl font-poppinsbold text-colorTextNavbar -mb-1">TESTIMONIOS</h2>
-                <h3 className=" text-colorTextSubtitulo text-center text-17px md:text-left md:text-2xl font-poppinssemibold">Experiencias de nuestros ex alumnos</h3>
+                <h2 className="text-center text-32px md:text-left md:text-4xl 2xl:text-40px font-poppinsbold text-colorTextNavbar -mb-1">TESTIMONIOS</h2>
+                <h3 className=" text-colorTextSubtitulo text-center text-17px md:text-left md:text-2xl 2xl:text-2xl font-poppinssemibold">Experiencias de nuestros ex alumnos</h3>
             </div>
             <div className="container mx-auto px-4 md:px-10 lg:px-0 xl:px-12 2xl:px-20">
                 {isMobile ? (

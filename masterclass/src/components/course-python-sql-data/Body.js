@@ -27,19 +27,19 @@ export const Body = () => {
     return (
         <div className="bg-white p-4 lg:pb-0 w-full flex flex-col min-h-screen justify-center">
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
-                <div className="w-full md:w-[60%] mt-20 lg:mt-15 text-center md:text-left">
+                <div className="w-full md:w-[60%] mt-20 2xl:mt-16 lg:mt-15 text-center md:text-left">
                     <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-8xl">
                         Python y SQL<br />
                         <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-68px 2xl:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">Aplicado a Proyectos</span>
                     </h1>
-                    <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-26px md:text-xl sm:text-2xl">
+                    <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-2xl md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
                     </p>
-                    <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl sm:text-2xl lg:leading-snug">
+                    <p className="text-colorText mt-6 lg:mt-10 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-xl sm:text-2xl lg:leading-snug">
                         Entrenamiento premium para profesionales de ciencias e ingeniería, basado en proyectos reales propuestos por
                         los participantes. 
                     </p>
-                    <p className="text-colorText  px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl sm:text-2xl lg:leading-snug">
+                    <p className="text-colorText  px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-xl sm:text-2xl lg:leading-snug">
                         Diseñado por líderes tecnológicos más top de la región.
                     </p>
                     <div className="mt-6 lg:mt-12 mb-6 lg:mb-10 lg:w-[42%] 2xl:w-[45%] flex justify-center lg:justify-left">
