@@ -21,7 +21,7 @@ const CourseCard = () => {
             link: '/python-sql-data'
         },
         {
-            title: 'ALGORITHMS & DATA STRUCTURES',
+            title: 'ALGORITMOS Y ESTRUCTURA DE DATOS',
             description: 'Programa en vivo, intensivo y ultra personalizado. Diseñado para ingenieros que buscan maximizar sus conocimientos sumando la habilidad de tratar datos y automatizar procesos con programación.',
             date: '06/08/2024',
             imageSrc: '/images/image-course-card/image-course3.jpg',
