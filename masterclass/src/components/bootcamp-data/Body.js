@@ -28,12 +28,12 @@ export const Body = () => {
         <div className="bg-white p-4 lg:pb-0 w-full flex flex-col min-h-screen justify-center">
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
                 <div className="w-full md:w-[60%] mt-20 2xl:mt-20 xl:mt-16 text-center md:text-left">
-                    <header className={`absolute top-20 left-0 bg-colorTextSubtitulo w-[60%] lg:w-[25%] xl:w-[32%] 2xl:w-[25%] lg:rounded-br-[3rem] xl:rounded-br-[4rem] rounded-br-[3rem] lg:py-6 2xl:py-5 py-3 text-center md:text-left`}>
-                        <h1 className={` font-poppinsmedium lg:-mb-2 text-2xl md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-4xl md:ml-20 drop-shadow-md`}>
+                    <header className={`absolute top-20 left-0 bg-colorTextSubtitulo w-[60%] lg:w-[25%] xl:w-[32%] 2xl:w-[22%] lg:rounded-br-[3rem] xl:rounded-br-[4rem] rounded-br-[3rem] lg:py-6 2xl:py-5 py-3 text-center md:text-left`}>
+                        <h1 className={` font-poppinsmedium lg:-mb-2 text-2xl md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-32px md:ml-20 drop-shadow-md`}>
                             BOOTCAMP
                         </h1>
                     </header>
-                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 xl:mt-28 2xl:mt-24 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-80px">
+                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 xl:mt-28 2xl:mt-20 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-80px">
                         Python y SQL<br />
                         <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-timeburnerbold leading-tight drop-shadow-lg">para ingenieros</span>
                     </h1>
@@ -81,12 +81,12 @@ export const Body = () => {
                             <div className="flex items-center">
                                 <div className="flex-1">
                                     <h1 className='font-poppinsbold text-xl text-left'>FECHA</h1>
-                                    <p className='font-poppinsmedium text-sm lg:text-sm 2xl:text-lg xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Iniciamos el 06 de agosto de 2024</p>
+                                    <p className='font-poppinsmedium text-sm lg:text-sm 2xl:text-base xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Iniciamos el 17 de septiembre de 2024</p>
                                 </div>
                                 <div className="mx-4 h-full border-l-2 border-black"></div>
                                 <div className="flex-1">
                                     <h1 className='font-poppinsbold text-xl text-left'>HORARIO</h1>
-                                    <p className='font-poppinsmedium lg:text-sm 2xl:text-lg text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm</p>
+                                    <p className='font-poppinsmedium lg:text-sm 2xl:text-base text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm</p>
                                 </div>
                             </div>
                         </div>

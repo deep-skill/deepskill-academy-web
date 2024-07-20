@@ -27,7 +27,7 @@ export const Body = () => {
     return (
         <div className="bg-white p-4 lg:pb-0 w-full flex flex-col min-h-screen justify-center">
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
-                <div className="w-full md:w-[60%] 2xl:w-[60%] mt-20 2xl:mt-20 xl:mt-16 text-center md:text-left">
+                <div className="w-full md:w-[60%] 2xl:w-[60%] mt-20 2xl:mt-20 xl:mt-16 text-center md:text-left ">
                     <header className={`absolute top-20 left-0 bg-colorsButton w-[60%] lg:bg-colorsButton lg:w-[32%] xl:w-[32%] 2xl:w-[27%] lg:rounded-br-[3rem] xl:rounded-br-[4rem] rounded-br-[3rem] lg:py-6 2xl:py-5 py-3 text-center md:text-left`}>
                         <h1 className={`text-colorText font-poppinsmedium lg:-mb-2 text-2xl md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-4xl md:ml-20 drop-shadow-md`}>
                             MASTERCLASS
@@ -68,13 +68,13 @@ export const Body = () => {
                     </div>
                 </div>
                 
-                <div className="w-full md:w-[40%] flex flex-col items-center lg:mt-24 md:mt-0">
+                <div className="w-full md:w-[40%] flex flex-col items-center lg:mt-24 xl:mt-20 md:mt-0">
                     <div className="md:w-[78%] flex flex-col items-center bg-colorBackgroundCards w-full rounded-3xl">
                         <div className="bg-blue-500 font-poppinsbold font-extrabold text-2xl lg:text-2xl text-white text-center w-full py-4 mt-6">
                             ¡QUEDAN POCOS CUPOS!
                         </div>
                         <div className="w-full">
-                            <YouTube videoId="Ni6SlemWS1Y" opts={opts} className="w-full aspect-video" />
+                            <YouTube videoId="ShIoU9Piq5Q" opts={opts} className="w-full aspect-video" />
                         </div>
                         <div className="text-customBlue font-poppinsbold mt-6 w-full px-7 lg:pb-6">
                             <div className="flex items-center">

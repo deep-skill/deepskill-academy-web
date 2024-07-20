@@ -30,7 +30,7 @@ const Mentors = () => {
             description: 'Ingeniero de Software con conocimientos sólidos en Algoritmos y Estructura de Datos. Participante de competencias ICPC.',
             company: 'Deep Skill',
             companyLogo: '/images/company/deep-skill.svg',
-            bgColor: 'bg-colorsCards2',
+            bgColor: 'bg-colorCards',
             image: '/images/mentors/emanuel-soto.png',
         }
     ];
