@@ -1,6 +1,6 @@
 import Image from "next/image";
 import NavBar from "@/components/course-python-sql-data/Navbar";
-import Mentors from "@/components/bootcamp-data/Mentors";
+import Mentors from "@/components/course-python-sql-data/Mentors";
 import Footer from "@/components/Footer";
 import Programs from "@/components/Programs";
 import Body from "@/components/bootcamp-data/Body";

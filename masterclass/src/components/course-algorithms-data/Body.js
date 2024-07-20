@@ -27,10 +27,16 @@ export const Body = () => {
     return (
         <div className="bg-white p-4 lg:pb-0 w-full flex flex-col min-h-screen justify-center">
             <div className="md:pl-16 flex flex-col md:flex-row items-center md:items-start">
-                <div className="w-full md:w-[60%] mt-20 2xl:mt-20 xl:mt-16 text-center md:text-left">
-                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-8xl">
-                        Algorithms<br />
-                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-68px 2xl:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">& Data Structures</span>
+                <div className="w-full md:w-[60%] 2xl:w-[60%] mt-20 2xl:mt-20 xl:mt-16 text-center md:text-left ">
+                    <header className={`absolute top-20 left-0 bg-colorsButton w-[60%] lg:bg-colorsButton lg:w-[32%] xl:w-[32%] 2xl:w-[27%] lg:rounded-br-[3rem] xl:rounded-br-[4rem] rounded-br-[3rem] lg:py-6 2xl:py-5 py-3 text-center md:text-left`}>
+                        <h1 className={`text-colorText font-poppinsmedium lg:-mb-2 text-2xl md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-4xl md:ml-20 drop-shadow-md`}>
+                            MASTERCLASS
+                        </h1>
+                    </header>
+                    
+                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-14 2xl:mt-20 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-8xl">
+                        Algoritmos<br />
+                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-68px 2xl:text-7xl font-timeburnerbold leading-tight drop-shadow-lg">y Estructuras de Datos</span>
                     </h1>
                     <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-2xl md:text-xl sm:text-2xl">
                         Programa en vivo, intensivo y ultra personalizado.
@@ -46,29 +52,29 @@ export const Body = () => {
                             ¡ÚNETE AHORA!
                         </a>
                     </div>
-                    <div className="flex flex-col mb-10 lg:mb-16 sm:flex-row items-center mt-12 lg:mt-10 space-y-6 md:mt-20 md:space-x-16 sm:space-y-0 sm:space-x-10">
+                    <div className="flex flex-col mb-10 lg:mb-16 sm:flex-row items-center mt-12 lg:mt-10 space-y-6 md:mt-20 md:space-x-16 lg:space-x-10 xl:space-x-16 sm:space-y-0 sm:space-x-10">
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--calendar-range] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText font-poppinsregular text-xl md:text-base lg:text-xl xl:text-base 2xl:text-xl">4 semanas</p>
+                            <p className="text-colorText font-poppinsregular text-xl md:text-base lg:text-base xl:text-base 2xl:text-xl">4 semanas</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[material-symbols--online-prediction] text-colorsIcon w-9 h-9  mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl xl:text-base 2xl:text-xl font-poppinsregular">Virtual en vivo</p>
+                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-base xl:text-base 2xl:text-xl font-poppinsregular">Virtual en vivo</p>
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--account-group-outline] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-xl xl:text-base 2xl:text-xl font-poppinsregular">Máximo 15 participantes</p>
+                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-base xl:text-base 2xl:text-xl font-poppinsregular">Máximo 15 participantes</p>
                         </div>
                     </div>
                 </div>
                 
-                <div className="w-full md:w-[40%] flex flex-col items-center lg:mt-24 md:mt-0">
+                <div className="w-full md:w-[40%] flex flex-col items-center lg:mt-24 xl:mt-20 md:mt-0">
                     <div className="md:w-[78%] flex flex-col items-center bg-colorBackgroundCards w-full rounded-3xl">
                         <div className="bg-blue-500 font-poppinsbold font-extrabold text-2xl lg:text-2xl text-white text-center w-full py-4 mt-6">
                             ¡QUEDAN POCOS CUPOS!
                         </div>
                         <div className="w-full">
-                            <YouTube videoId="Ni6SlemWS1Y" opts={opts} className="w-full aspect-video" />
+                            <YouTube videoId="ShIoU9Piq5Q" opts={opts} className="w-full aspect-video" />
                         </div>
                         <div className="text-customBlue font-poppinsbold mt-6 w-full px-7 lg:pb-6">
                             <div className="flex items-center">
