@@ -53,11 +53,13 @@ module.exports = {
         poppinsregular: ['PoppinsRegular'],
         poppinsmedium: ['PoppinsMedium'],
         poppinssemibold: ['PoppinsSemiBold'],
+        andikanewbasicregular: ['AndikaNewBasicRegular'],
       },
       width: {
         '7/10': '70%',
         '85': '85%',
         '2/5': '40%',
+        '3/10': '35%',
       }
     },
   },

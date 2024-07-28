@@ -33,15 +33,15 @@ export const Body = () => {
                             BOOTCAMP
                         </h1>
                     </header>
-                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 xl:mt-28 2xl:mt-20 leading-tight drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-80px">
+                    <h1 className="text-customBlue font-timeburnerbold text-5xl mt-20 xl:mt-28 2xl:mt-20 leading-none drop-shadow-lg md:text-6xl lg:text-80px xl:text-80px 2xl:text-80px">
                         Python y SQL<br />
-                        <span className="text-colorTextNavbar text-40px md:text-6xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-timeburnerbold leading-tight drop-shadow-lg">para ingenieros</span>
+                        <span className="text-customBlue text-40px md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-timeburnerbold leading-none xl:leading-3">para ingenieros</span>
                     </h1>
-                    <h3 className='text-colorTextNavbar text-40px md:text-6xl lg:text-4xl xl:text-4xl 2xl:text-4xl font-timeburner drop-shadow-lg'>Aplicados a proyectos de Datos</h3>
-                    <p className="text-colorText mt-8 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-2xl md:text-xl sm:text-2xl">
+                    <h3 className='text-customBlue text-2xl mt-4 md:text-6xl lg:text-4xl xl:text-4xl 2xl:text-4xl font-andikanewbasicregular xl:leading-3 '>Aplicados a proyectos de Datos</h3>
+                    <p className="text-colorText mt-8 2xl:mt-7 xl:mt-16 lg:mt-10 px-3 pl-1 text-xl font-poppinsbold leading-normal lg:text-2xl xl:text-2xl 2xl:text-2xl md:text-xl sm:text-2xl ">
                         Programa en vivo, intensivo y ultra personalizado.
                     </p>
-                    <p className="text-colorText mt-6 lg:mt-10 2xl:mt-8 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-xl sm:text-2xl lg:leading-snug 2xl:leading-snug">
+                    <p className="text-colorText mt-6 lg:mt-10 2xl:mt-7 px-3 pl-1 text-xl font-poppinsregular leading-normal md:text-xl lg:text-xl xl:text-xl 2xl:text-xl sm:text-2xl lg:leading-snug 2xl:leading-snug">
                         Entrenamiento premium para profesionales de ciencias e ingeniería, basado en proyectos reales propuestos por
                         los participantes. 
                     </p>
