@@ -44,6 +44,10 @@
     font-family: 'PoppinsMedium';
     src: url('/fonts/Poppins-Medium.ttf') format('truetype');
   }
+  @font-face {
+    font-family: 'AndikaNewBasicRegular';
+    src: url('/fonts/AndikaNewBasic-Regular.ttf') format('truetype');
+  }
 /* Asegúrate de que las directivas de Tailwind estén aquí también */
 @tailwind base;
 @tailwind components;
