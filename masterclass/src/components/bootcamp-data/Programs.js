@@ -18,7 +18,7 @@ const Programs = () => {
                 <div className="flex items-center mb-2 md:mb-4 lg:mb-0">
                   <img src="/images/icon/clock-icon.svg" alt="Clock Icon" className="w-36 h-36 mb-2 mr-3 md:w-25 md:h-25 lg:w-40 lg:h-40  sm:mb-0" />
                   <p className="font-poppinsbold text-xl md:text-2xl lg:text-xl xl:text-2xl 2xl:text-2xl md:pr-20">
-                    16 horas de masterclass en vivo con Deep Mentor.
+                    48 horas de masterclass en vivo con Deep Mentor.
                   </p>
                 </div>
               </div>
@@ -29,7 +29,7 @@ const Programs = () => {
                 <div className="flex items-center mb-2 md:mb-4 lg:mb-0">
                   <img src="/images/icon/rocket-launch-icon.svg" alt="Rocket Launch Icon" className="w-36 h-36 mb-2 mr-3 md:w-25 md:h-25 lg:w-40 lg:h-40  sm:mb-0" />
                   <p className="font-poppinsbold text-xl md:text-2xl lg:text-xl xl:text-2xl 2xl:text-2xl md:pr-20">
-                     4 horas de trabajo de laboratorio 1 a 1 con Buddy.
+                    12 horas de trabajo de laboratorio 1 a 1 con Buddy.
                   </p>
                 </div>
               </div>

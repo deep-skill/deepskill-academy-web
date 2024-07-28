@@ -86,7 +86,7 @@ export const Body = () => {
                                 <div className="mx-4 h-full border-l-2 border-black"></div>
                                 <div className="flex-1">
                                     <h1 className='font-poppinsbold text-xl text-left'>HORARIO</h1>
-                                    <p className='font-poppinsmedium lg:text-sm 2xl:text-base text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm</p>
+                                    <p className='font-poppinsmedium lg:text-sm 2xl:text-base text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm (UTC-5)</p>
                                 </div>
                             </div>
                         </div>
