@@ -117,7 +117,7 @@ const MasterclassContent = () => {
                             <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows showIndicators={false}>
                                 {['logo3', 'logo2', 'logo1', 'logo4', 'logo5', 'logo6'].map((tech, index) => (
                                     <div key={index} className="flex justify-center">
-                                        <Image src={`/images/tech/${tech}.png`} alt={tech} width={80} height={40} className="m-32 my-10" />
+                                        <Image src={`/images/tech/${tech}.png`} alt={tech} width={80} height={40} className="m-28 my-10" />
                                     </div>
                                 ))}
                             </Carousel>

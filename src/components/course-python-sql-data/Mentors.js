@@ -108,7 +108,7 @@ const Mentors = () => {
                         <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
                             {companyLogos.map((logo, index) => (
                                 <div key={index} className="flex justify-center">
-                                    <Image src={logo.src} alt={logo.alt} width={60} height={30} className="m-5" />
+                                    <Image src={logo.src} alt={logo.alt} width={60} height={30} className="m-10 w-12 h-12" />
                                 </div>
                             ))}
                         </Carousel>
