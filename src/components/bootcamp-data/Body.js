@@ -75,7 +75,7 @@ export const Body = () => {
                             ¡QUEDAN POCOS CUPOS!
                         </div>
                         <div className="w-full">
-                            <YouTube videoId="Ni6SlemWS1Y" opts={opts} className="w-full aspect-video" />
+                            <YouTube videoId="h0UP-4wAdkg" opts={opts} className="w-full aspect-video" />
                         </div>
                         <div className="text-customBlue font-poppinsbold mt-6 w-full px-7 lg:pb-6">
                             <div className="flex items-center">
@@ -92,7 +92,7 @@ export const Body = () => {
                         </div>
                         <div className="bg-colorsButton font-poppinsbold text-xs lg:text-sm text-colorTextNavbar rounded-3xl text-center w-full lg:p-3 py-3 lg:py-5 mt-5 flex justify-evenly">
                             <div>
-                                HASTA EL 15/07 <br />
+                                HASTA EL 30/08 <br />
                                 <span className="font-poppinsbold text-xl lg:text-3xl">USD 600.00 </span>
                             </div>
                             <div>
