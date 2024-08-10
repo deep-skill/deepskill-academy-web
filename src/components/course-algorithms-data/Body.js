@@ -74,7 +74,7 @@ export const Body = () => {
                             ¡QUEDAN POCOS CUPOS!
                         </div>
                         <div className="w-full">
-                            <YouTube videoId="ShIoU9Piq5Q" opts={opts} className="w-full aspect-video" />
+                            <YouTube videoId="oO6uVOiaWkY" opts={opts} className="w-full aspect-video" />
                         </div>
                         <div className="text-customBlue font-poppinsbold mt-6 w-full px-7 xl:px-6 2xl:px-7 lg:pb-6">
                             <div className="flex items-center">
