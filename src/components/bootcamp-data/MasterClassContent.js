@@ -38,7 +38,7 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                <a href="https://drive.google.com/file/d/1aNXDM7BQ7derq1nnQtPeC2w2vLoMdoW_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1jemGn7Js0pGnpgv_mcn8d5M77GXwhIS0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     TEMARIO DETALLADO
                                 </a>
                             </button>
@@ -97,12 +97,11 @@ const MasterclassContent = () => {
                                         <ul className="font-poppinsregular text-white list-disc text-xl lg:text-lg lg:px-6 leading-normal lg:leading-loose">
                                             <li>Manejo de archivos</li>
                                             <li>Consumo de API</li>
-                                            <li>Base de datos I</li>
-                                            <li>Base de datos II</li>
-                                            <li>Estadística I</li>
-                                            <li>Estadística II</li>
-                                            <li>Análisis Exploratorio de Datos</li>
-                                            <li>Regresión Lineal / Multiple</li>
+                                            <li>Pandas</li>
+                                            <li>Base de datos (SQL)</li>
+                                            <li>Estadística</li>
+                                            <li>Análisis Exploratorio de Datos (EDA)</li>
+                                            <li>Introducción a Machine Learning</li>
                                         </ul>
                                     </div>
                                 </div>
