@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from "next/image";
 import NavBar from "@/components/course-python-sql-data/Navbar";
 import Mentors from "@/components/course-algorithms-data/Mentors";
@@ -9,6 +10,12 @@ import MasterclassContent from "@/components/course-algorithms-data/MasterClassC
 
 export default function AlgorithmsData() {
   return (
+    <>
+    <Head>
+        <title>Curso de Algoritmos y Estructuras de Datos - Deep Skill</title>
+        <meta name="description" content="Mejora tus habilidades en algoritmos y estructuras de datos con nuestro curso intensivo." />
+        <meta name="keywords" content="algoritmos, estructuras de datos, curso, masterclass, Deep Skill" />
+    </Head>
     <div className="flex flex-col">
       <NavBar />
       <main className="flex-grow">
@@ -19,5 +26,6 @@ export default function AlgorithmsData() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }
