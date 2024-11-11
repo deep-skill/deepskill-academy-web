@@ -38,7 +38,7 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold  text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                <a href="https://drive.google.com/file/d/1ino9AR9Jz-FBvTgKglTN6yEVc5f7p0IZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/16nxOLG3ekJCwf2q2r0UKF50ldMpXMEmL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     TEMARIO DETALLADO
                                 </a>
                             </button>
@@ -46,14 +46,14 @@ const MasterclassContent = () => {
                         <div className="w-full lg:w-2/5 2xl:w-[35%] bg-customBlue p-8 px-10 lg:p-18 lg:px-10 xl:px-18 2xl:px-18 lg:py-14 rounded-[38px]">
                             <h4 className="font-poppinsbold text-white text-xl lg:text-xl mb-2">Algoritmos</h4>
                             <ul className="font-poppinsregular text-white list-disc text-xl lg:text-lg lg:px-6 leading-normal lg:leading-loose">
-                                <li>Arrays, Strings and Hash Tables</li>
-                                <li>Linked List, Stack and Queues</li>
-                                <li>Tree and Graph</li>
-                                <li>Graph next level</li>
-                                <li>Recursion and Backtracking</li>
-                                <li>Dynamic Programming</li>
-                                <li>Merge Sort</li>
-                                <li>Binary Search</li>
+                                <li>Pensamiento Computacional</li>
+                                <li>Complejidad Algorítmica</li>
+                                <li>Estructuras de Datos Lineales</li>
+                                <li>Construcción de Estructuras de Datos Lineales</li>
+                                <li>Estructuras de Datos No Lineales</li>
+                                <li>Búsqueda Completa I - Fuerza Bruta</li>
+                                <li>Recursión</li>
+                                <li>Búsqueda Completa II - Backtracking</li>
                             </ul>
                         </div>
                     </div>
