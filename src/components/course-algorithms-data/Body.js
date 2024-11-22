@@ -80,7 +80,7 @@ export const Body = () => {
                             <div className="flex items-center">
                                 <div className="flex-1">
                                     <h1 className='font-poppinsbold text-xl text-left'>FECHA</h1>
-                                    <p className='font-poppinsmedium text-sm lg:text-sm xl:text-base 2xl:text-base xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Iniciamos el 06 de enero de 2025</p>
+                                    <p className='font-poppinsmedium text-sm lg:text-sm xl:text-base 2xl:text-base xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Iniciamos el 16 de enero de 2025</p>
                                 </div>
                                 <div className="mx-4 h-full border-l-2 border-black"></div>
                                 <div className="flex-1">

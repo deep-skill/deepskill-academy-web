@@ -14,7 +14,7 @@ const CourseCard = () => {
                 'Requisito nivel intermedio en programación.',
                 'Pruebas de código con estilo big techs.',
             ],
-            date: '06 Enero 2025',
+            date: '16 Enero 2025',
             imageSrc: '/images/image-course-card/image-course.png',
             link: '/algorithms-data',
             type: 'MASTERCLASS',
