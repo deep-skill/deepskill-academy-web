@@ -23,7 +23,7 @@ const MasterclassContent = () => {
             <div className="relative w-full h-full bg-black bg-opacity-75 py-10 lg:pb-2" style={{ backgroundImage: 'url("/images/background-masterclass.png")', backgroundBlendMode: 'overlay' }}>
                 <header className={`absolute top-0 left-0 lg:bg-customBlue lg:w-[50%] 2xl:w-[45%] lg:rounded-br-[4rem] lg:py-6 py-5 text-center md:text-left ${isMobile ? 'bg-blue-700 w-full' : ''}`}>
                     <h1 className={`font-poppinsbold lg:-mb-2 leading-tight text-32px md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-40px md:ml-20 lg:leading-relaxed ${isMobile ? 'p-2' : ''} drop-shadow-md`}>
-                        Contenido del bootcamp <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}></span>
+                        Contenido de la masterclass <span className={`${isMobile ? 'block text-2xl' : 'inline'} md:text-5xl lg:text-4xl`}></span>
                     </h1>
                     {!isMobile && (
                         <h3 className={`font-poppinssemibold text-xl md:text-3xl lg:text-xl xl:text-xl 2xl:text-xl md:ml-20 xl:leading-10 2xl:leading-loose ${isMobile ? 'p-0' : ''} drop-shadow-md`}>
@@ -38,7 +38,7 @@ const MasterclassContent = () => {
                                 Organizamos junto a nuestros expertos un temario que te ayudará a alcanzar tus metas profesionales.
                             </p>
                             <button className="bg-customBlue font-poppinssemibold  text-white lg:text-base text-base py-2 px-10 rounded-full block mb-12">
-                                <a href="https://drive.google.com/file/d/16nxOLG3ekJCwf2q2r0UKF50ldMpXMEmL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1yma6tRa6X2yTBwlFlxJIykzNpVsw3qbo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     TEMARIO DETALLADO
                                 </a>
                             </button>
@@ -63,7 +63,7 @@ const MasterclassContent = () => {
                     <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-4 xl:px-10">
                         {isMobile ? (
                             <Carousel autoPlay interval={3000} showThumbs={false} showStatus={false} infiniteLoop useKeyboardArrows>
-                                {['logo3', 'logo2', 'logo1', 'logo4', 'logo5', 'logo6'].map((tech, index) => (
+                                {['logo7', 'logo12', 'logo8', 'logo9', 'logo10', 'logo11'].map((tech, index) => (
                                     <div key={index} className="flex justify-center">
                                         <Image src={`/images/tech/${tech}.svg`} alt={tech} width={60} height={30} className="m-8 w-32 h-32" />
                                     </div>
@@ -71,7 +71,7 @@ const MasterclassContent = () => {
                             </Carousel>
                         ) : (
                             <div className="flex flex-wrap lg:gap-1 xl:gap-2 2xl:gap-10 justify-center mt-2 xl:mt-6">
-                                {['logo3', 'logo2', 'logo1', 'logo4', 'logo5', 'logo6'].map((tech, index) => (
+                                {['logo7', 'logo12', 'logo8', 'logo9', 'logo10', 'logo11'].map((tech, index) => (
                                     <Image key={index} src={`/images/tech/${tech}.png`} alt={tech} width={100} height={40} className="m-5 lg:mx-10 xl:mx-12 md:w-20 md:h-20 sm:h-10" />
                                 ))}
                             </div>

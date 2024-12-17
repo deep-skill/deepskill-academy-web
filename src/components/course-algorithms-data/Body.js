@@ -63,7 +63,7 @@ export const Body = () => {
                         </div>
                         <div className="flex flex-col items-center sm:flex-row sm:items-center">
                             <span className="icon-[mdi--account-group-outline] text-colorsIcon w-9 h-9 mb-2 sm:mb-0 sm:mr-2"></span>
-                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-base xl:text-base 2xl:text-xl font-poppinsregular">Máximo 15 participantes</p>
+                            <p className="text-colorText text-xl sm:text-xl md:text-base lg:text-base xl:text-base 2xl:text-xl font-poppinsregular">Máximo 25 participantes</p>
                         </div>
                     </div>
                 </div>
@@ -85,14 +85,14 @@ export const Body = () => {
                                 <div className="mx-4 h-full border-l-2 border-black"></div>
                                 <div className="flex-1">
                                     <h1 className='font-poppinsbold text-xl text-left'>HORARIO</h1>
-                                    <p className='font-poppinsmedium lg:text-sm xl:text-base 2xl:text-base text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes y jueves de  7 pm a 9 pm (UTC-5)</p>
+                                    <p className='font-poppinsmedium lg:text-sm xl:text-base 2xl:text-base text-sm xl:mt-2 2xl:mt-0 text-colorTextNavbar text-left'>Martes, jueves y viernes de 7 pm a 9 pm (UTC-5)</p>
                                 </div>
                             </div>
                         </div>
                         <div className="bg-colorsButton font-poppinsbold text-xs lg:text-sm text-colorTextNavbar rounded-3xl text-center w-full lg:p-3 py-3 lg:py-5 mt-5 flex justify-evenly">
                             <div>
-                                HASTA EL 15/12 <br />
-                                <span className="font-poppinsbold text-xl lg:text-3xl">USD 250.00 </span>
+                                HASTA EL 31/12 <br />
+                                <span className="font-poppinsbold text-xl lg:text-3xl">USD 100.00 </span>
                             </div>
                             <div>
                                 <div className="text-blue-500 text-xl lg:text-2xl line-through lg:mt-5 mt-3">
