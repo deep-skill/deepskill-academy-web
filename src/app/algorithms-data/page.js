@@ -7,6 +7,7 @@ import Programs from "@/components/Programs";
 import Body from "@/components/course-algorithms-data/Body";
 import '/styles/globals.css'
 import MasterclassContent from "@/components/course-algorithms-data/MasterClassContent";
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
 export default function AlgorithmsData() {
   return (
@@ -25,6 +26,7 @@ export default function AlgorithmsData() {
         <MasterclassContent />
       </main>
       <Footer />
+      <FloatingWhatsAppButton />
     </div>
     </>
   );
